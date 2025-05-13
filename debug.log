@@ -1313,3 +1313,764 @@ Encoding generated and saved successfully
 2025-05-08 13:20:51 - Attempting to display profile picture: ../../uploads/82_1746703199.jpg
 2025-05-08 13:21:15 - Delete request received for ID: 20
 2025-05-08 13:21:15 - User deleted successfully: ID 20
+2025-05-12 15:44:27 - Starting registration process
+2025-05-12 15:44:27 - CSRF token in session: 6097987e62fc85b8c1ee269cd160c5290c2f91430bbd9d2e5ed20df786d075e6
+2025-05-12 15:44:27 - CSRF token from POST: 6097987e62fc85b8c1ee269cd160c5290c2f91430bbd9d2e5ed20df786d075e6
+2025-05-12 15:44:27 - CSRF token validated successfully
+2025-05-12 15:44:27 - reCAPTCHA response received: 03AFcWeA6dAFiWDdptIQfnWTv0gpGt2QpwgajFPYR6zjDMD3Tn-5qECHKtyoKX3GrTNdLQjNqzvCR7Y7jTQ8AVLnWfR9LedA8AVip0A_w2Wdkt68qFg7XAp0Y8J6cKNq-ot0aZIqV15f1ZN6IYabqq6SRyD5rWrbN76Hr8gGcrditgrZqk68miXBYFMRAUU1hH1FkKLg9Vgt7T0pJZXLj-6zlaGcIKr8B4ENHfngBJUSf2oGfbrqrxQGrRLPNPFzGgyLjR3mObBcS2bC8z36tiL2InskkxLVNnozKMF1UTrUA_9iA3OALbeZbJzU8vo_0QKZ7UGybhK9nZFvQWjmkmuc0LvhGovr1MUVDNoQY87eezqKTPlfTJublspxCOJX2RDEX1WHwgpae-3HxA_0z3FVgHjN7Q0rTlfol2gHv7s85dyQDQcwiqoFjbqonhpz8UIHLDbW_hif2v75EAPp27tzvVYl4oeMfO0KkTmooDetjwvgoyvi-VJl7wzQzrRlnkqIf2ERt1jeCmrMEF8CJ8anx8H5kLGDSSC9NNxDB-Sr8MoyJ2wWnNmiQhF7EbUPNwFZJXZ5v9tA6Rz_l_HVljCinuQarwk6AtSCeQ2SLDOHXicjQWiBVSBnOAlsi_Fx2M07N4Or9SST5fMhlOo2ZG_5p4vq0C8Yb-654T4m95WfHAC7l8y7uCAbqeJbMbxE1JzKNjIP03EnTMcDw1a0C3OpO-N_oPBD4MatKjxWGmGZI8WkWfy6n9lxOshBU41wSh0EN-g-dvlHwoY6VE7r8OBI0ulk0BH954hE73MCF-qIWkG-3fKUOJzshb_E4KO1Qs4xKY5xw-RfSmOcPaYzoFEOulDyoDODiKZfrP5PT4K7ABWwEMsoieMgdwPhN4wnbnmQ6q97DbWPrOJC153vldagNgMAjnpjTu1QDtJjbqLlQXdyLD1V2cAbNvQ-HqFjFLVcsDBLIJrNzE9VLINVZUNFICTgTiwEr1z6EH_PEt3RIaUTocItUst5rYLOuWqiUDkpbcIpIOBOj8PXB9ZWehofazR3FjyDzAMXbM9nMCXAMYFSKcAgY1irwZKnxk57dZ3f4XmQxQHjvrjsdEjZ-JOqtonc3QcABGCsk1qwWfAETLisj3umeFoNb-sUsTxSm8uz1CEDXpPVm5DIxSn_uSXLswlK-XUJHvnX0ge3rNx11_4Fk6ESn2WHQklzR0pRvH1zDnlyAcd6hwltFRKOxWbEdW_Ie1CXfTg13jiNPMpvO0qLRMXMGhb2SgXw90cXZg--ZFHQ2zzRsGvPqWdQsWjI2HUuBt4ihFfkx2rTmRI-qi8t-AvjHnBbWOUOolrS3eKLOouqoBSD_Sv_CBPO1tZYfer4aVYsB_AJwLNACr3TSHBI2oR1Pj_7Wfd-8Iq5RyKh3vF4b1-m3FQ5d7YG5Qt_TYksjIMgEPapwfmXAdY_kVWHluNdZBPvf3mP8e7QyY2AxlBRSmXBCq80Mzc9apPzkV42rzv2bLt9IKhFyqNUSdVC12RikzgF1t_IQUIotbGDKxZEXIwNXPWRLUiij8x6VIZibUkuSnW-KZWkFyJqnXnUU1fLEsH_kCYT3BfHtYjWO-L-75yrutnkyziubTzPEp0x_ugI_3jUGF5DgJNV74Bn03yzij87hYnINNAr4ndZFghwU-5r4Cq4o5z9hbiKxqFrzr-m-g9InaINWJTzFIp3UxceFdAqvx52HtE_WxiqokvMfekhc_Ghn-8lOgwEcDm77_O4oEf6REhIAGqYngDrcIAJl5hc8bLSpEfso_k8UjlYVJLNffEMasIw6RdYXM8dXJLU3FMxAL0eZEaOjKYhP2KxPtErTXG4-VVeofVTbeVBpuk-g4YKs4nlMsMW7j8VzKhDuvpTTXJ12phenMXuzFloGmWG3Syzj4E5U-jT2GBmCBLLfgMDTvH_fnnlhUjJbRIStcTlfYdtgNCuDm_wQYZHlgzdPlyBuUKMdZM8e2i9rfJ1qsolLRRap-Zrc_ThY1mgrD_xE6-VcUcJNt1ca7Lyiuzbj3U2OYPN1sr7ItEDpzw-ztui72tkp94_FD11gJW-jQXBWGWcUllrjGxhCg5Fl1nXcR_PuH7Zjltgov1nvlwFIak65F9t0NLpKi5XK6wndItQofRtXJXlfjRTudGHItPHMgGe5FQF6qnSEXZGpajCxyxMbBtwsp5p3SygBIod5qYpMXGDkBJfFSyAZjvd0fou2Af0czI2Tf2DTklJonINuT_FSn-L_8uhYSDYtm8fiX5bc451cnA_PC6dB4jeVbFZHe0Mzegu7InpykCpdHpb2g
+2025-05-12 15:44:28 - reCAPTCHA server response: {"success":true,"challenge_ts":"2025-05-12T13:43:29Z","hostname":"localhost"}
+2025-05-12 15:44:28 - reCAPTCHA verified successfully
+2025-05-12 15:44:28 - Fields validated successfully
+2025-05-12 15:44:28 - Email validated, proceeding to registration
+2025-05-12 15:44:28 - Attempting to add user: nom=mouhamed, email=hammamahmoud06@gmail.com
+2025-05-12 15:44:28 - User added with ID: 83
+2025-05-12 15:44:28 - Transaction committed
+2025-05-12 15:44:28 - Upload dir: C:\Users\hamma\Desktop\Travaille\integration\readme-Innoconnect-user\View\frontOffice/../../uploads/
+2025-05-12 15:44:28 - Photo validated successfully
+2025-05-12 15:44:28 - Photo uploaded to: C:\Users\hamma\Desktop\Travaille\integration\readme-Innoconnect-user\View\frontOffice/../../uploads/83_1747057468.jpg
+2025-05-12 15:44:28 - Encoding result: Traceback (most recent call last):
+  File "C:\Users\hamma\Desktop\Travaille\integration\readme-Innoconnect-user\View\frontOffice/../../scripts/generate_encoding.py", line 1, in <module>
+    import face_recognition
+ModuleNotFoundError: No module named 'face_recognition'
+
+2025-05-12 15:44:28 - Registration completed successfully with welcome message: Welcome to the investment world, mahmoud! We're excited to have you on board at InnoConnect. Explore your new features and shape the future!
+2025-05-12 15:46:38 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-12 15:46:38 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-12 15:46:44 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-12 15:46:44 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-12 15:46:45 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-12 15:46:45 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-12 15:47:06 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-12 15:47:06 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-12 15:54:45 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-12 15:54:45 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-12 15:55:28 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-12 15:55:28 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-12 15:55:38 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-12 15:55:38 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-12 15:55:47 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-12 15:55:47 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-12 16:02:28 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-12 16:02:28 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-12 16:03:00 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-12 16:03:00 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-12 16:08:03 - Starting registration process
+2025-05-12 16:08:03 - CSRF token in session: 19cf12a9551695a502ba83c3014a1bd3c16841f70e326a4e89a681928589f344
+2025-05-12 16:08:03 - CSRF token from POST: 19cf12a9551695a502ba83c3014a1bd3c16841f70e326a4e89a681928589f344
+2025-05-12 16:08:03 - CSRF token validated successfully
+2025-05-12 16:08:03 - reCAPTCHA response received: 03AFcWeA4rahGeJZkiFe_uvoBij7iN7mEkQIU9cYsh6ftLRDb7ILU9LLuryi9XRpY_PJZNrQl9Oh65Hu5e9e5RYoz32oJ9cf5-e636KpbkgSLrdYP061cmJh94uBZWL7oP0TOeizbh-lW7uvlDwibPfegTl0whxR1TiQCtJPdVIVY0FAl0eF3Dr3IZlRlaBxaHznvAnbwZh9-s0IdIzDHBB2yf_AMwtvJ-0WtyIqEHMbJBIWBlfCnhu1cBgx8zr7JAgSD-sg7ruYaQbH-veaLa6VcyS8OWahMeIpoXuRZXyjJLruKFo-By-xKTssWKCXXcBLUyvx211OEodQlVX_WBV6bHnENl09FX5wrYUnoOGCEYpLpJi4e7p5w4_PjEYUL5nxJJHQz7p_cRGulaUeQaAq8xj90u45tN4F3xCSBrTltckCnQSaUaa5Dae4JSmz335soieY4gksut5251uCQQk9JI_QKc8XnZ3FqJn3hitan_MSWc-5iByNbrdOuaPGmsyaUnDJpMtL5UfGit83XjI756podkcvMvTm7RiCMhNoBk8h4cR0zUUQ5GDRLEFNhjjXnOAFRC_JJtF4znwbbiw3Sy1N6v4vzko1URrF2-Vxw1IQikYPkqAAq0snPc2pRcs3WqaJ0GM_mZNqzBmz_LzGQcv6vXBiGm0Bk_gcyPrVhXsgF8FR1Qc6oY7Q8_6-KUAvas0wW5eZM7NsDJTWoGGGnQa4wiV4Ocqh2XVo-jDP57YVyei4OAYtm8N0WtYJ77GI6ITZ431sV8Ar4QUU_enF-neJdEwhH1w890RGq_INYtbRByxQv9S-lnKwHxBRZqBn_WHX9rwJannkzD45z_DcQt6h4XRrBWcwdvnRdMuamdHSoD6f8Ug2JJ2MY7U-t70HqL0E0ngg1DM6layH8dAK2cx3P2KfZN31MjbHmUo6SatmqPSxtZzIb53Ak1gRvHJfnATUF8oFnKB6wVRukUiDjoJIu0aYhUFxywcnsZhbUIBW8NdgazOZuedv0VyrrHidir0Bs9LpZUvG-5GwfMOekD9EBsM6kO02a26M21s5nTqgBHhwCaxV-qOG1PtSTbqqZqWwT60kEvb_vLOnwcaXEkEQu7xU8r07adZKmzwj78rr7Ixt6af7TsGGp2PVEfh5lyLJD5GY2bM899m5fDAHfOWKFZLZJ-lwPzYaVo98eEBmoL27MVJfmC-LPf0FvdtISDfPe4SEsy6o1EXMybsb_3LnRGOGDIgVzUfCCaAjyVvCEtMf8hmKg2OUElMZDwwBdUNV36fkgvHwxtJ2MP-sVEYXfSrbinQ3s6zbUyizHwvsSNmCOXcIVfVeFnB7uBNLGZ1oWMRoZ7V_5rrQxQ0Mw77meaMPFjr_DhVyZOmEZK6PHhSSsdyyhyRBxfZLP1jnrPD-hPI2BLPDZzFQGUDs8vBrfi-6IDTWITgA-cM-krRygksW1NYKVBRmsIp7DOE-2hPVCpGxy4KAxWrJzXjcs3Lm6evlldd8pVtXlrEIB66qOkMlKAd5ZsmbdbHznokJSzFqN6hlqrSpXIKUpxugY6pdLfZeEpKviwnrp-_LqgtcbaCUWOq20TNzyGRsMvGspYxC_Al1-BJenXEoGew3aoVy3sOjY__dGG2i_OwqM0mUI5JNKzwGdcPIK4KQEWxXVmPX1NGzX0Rj8LIcoEovSz0TjflAc0a3uo4yfVtM8CFHiqe7K4Vm70d4ch2S5gzQCL1JAEBvpgyaOzU85VVR0DNMv4iNnJEQVf4zD5suPBs2Hn_0qBdRd7HU9-KCnJFMQP6PKuvLzmI3tZqAQcYyh88n1jSy4v2GFsT-DLYFEBnawYgOvGySvVciwBc7BU-v2M-pu4BmNOnAd7-zHeGX50thseR2uLSVo9ewPOwiBsZQSyrIa_TF_C6qGSBKBrLBQHIZ2tYcRwIK9UKdOoDbI_iUN9WilEW9ckpw-ekbbBA-aGHqEsY1E3DxmTLdqU9Hj7X-kitNLjvKNJyqSRpayhp1MSgb_BXOxvT8mGfoux24QFZRstzFU_IiQkzWiQ6FjF8kIaIOajxkFQlej2xfWz4ZVUXPBBn1Y-aUKNGl3FlltDz18n0rkF6NxQyxTT8eDHkN_SK4VhJW3hZIGiGeMiDKWd6Q3jEYRa6uAcIYYAr_klI3Nezlw9uyA2_sh5ZL1fBsU5VUitbtYx3Eowe9SjZocH9rG7AS9LICtV59GDQ3bnxd4F8rTtLkiNmgF-B9LsH9zHVR2qtglSmsQhLQfWLNqDqKiKWI5jZpUTdJBcUeiAnWmhcKfkvU-bOKwAOSw6PHzy6U5x
+2025-05-12 16:08:04 - reCAPTCHA server response: {"success":true,"challenge_ts":"2025-05-12T14:07:42Z","hostname":"localhost"}
+2025-05-12 16:08:04 - reCAPTCHA verified successfully
+2025-05-12 16:08:04 - Fields validated successfully
+2025-05-12 16:08:04 - Validation failed: Email already exists - email: 'hammamahmoud06@gmail.com'
+2025-05-12 16:08:04 - Redirecting to register.php with notification: Email already exists
+2025-05-12 16:40:56 - Starting registration process
+2025-05-12 16:40:56 - CSRF token in session: 19cf12a9551695a502ba83c3014a1bd3c16841f70e326a4e89a681928589f344
+2025-05-12 16:40:56 - CSRF token from POST: 19cf12a9551695a502ba83c3014a1bd3c16841f70e326a4e89a681928589f344
+2025-05-12 16:40:56 - CSRF token validated successfully
+2025-05-12 16:40:56 - reCAPTCHA response received: 03AFcWeA7y9M1_DsDxJkYO8Qks7CB9orFQ-yPX7sUq4K0pXfpPHDk98Ps53J-lOV3hPhEmi748LBP3bozwSYzf8tlruYSwe5n4kqfy6y4ASQbFmlOdxesIdwaJt_rT9rVNFom6xMyB2sVFRarkG9etx_nzfPtKJw_2NUYCzbaiExHRnjk1uuykFKiphKC1HR4jGUFzLOAFy-6a_Ui5kBmIFyRdQNntc-7aP5MTyh0MZlF-7awswEDU-J37UCh1ZlUOyjrDf0hH3PUAiPIl9M4VZtJWxH4RwplVUu9H_WgV0lHLNh9eXAc8mwqhjayX9DxHm_ULDjp-iD1SOVOCuMoPXS1wZ71dQShCVGEIx5cdzafQHxgaFSU-STyky8Rn7oBaR786LbBQNlH2zkvelNcth0HImzJUfdig8RlgVKGMLl0MGTvOXmqQ6aZ7Q-IRqEElwVOLpMryImDuKyt9mZbc2YJSZ-ttwNhgzc8G4wFsSnMnTKfPkjzIH2HZkhZy5u-bqZFpuf5-hm17gXfS6bZboTlMjQsFLbZFZZ5KtZiym4iJgGjvVNk8ep5S5gfNwqVgkWWtmBiFQZpdrgmM1hhprfuTcwGng_qyBCV_KNwBI6AMjPLXjcND0wEKM2rqbuo7XwCOcj-ZjbSMwL1gvbS3fJwqPeA3mE4x0YUblayQrX40zY8DeLOHlZv_s3K4yeDan1eG0SyyJ6I-PqSV1-jWnHkrYcqrsSe94oBifSMy34F76OELL5tmsGhkwPZ-Lx8kWjnAWaN0f2PunNajqp25t9c91s5ZH-uRYP6KHV6oyLrBMO3t3eEBfRd8KVdXYbtiKOIQ9XTa6AXEwo0bk-IFkdwAjsCmCJODRTn9Z3GZVOZXK7E9zq9N-k_rjeYCNNazM0vnSZC4BKERiGVajTi0gIyBqfr3KNbdzj79w_ZlXecD0LMLVqV6IXAOapOSYvwVg4HjNudNre5v1Nl5rhqXwicTyXr-ARe3G5ACNsYoeSx8jmm_a_ivnCtC_zYw754Vb3huUgaMAMN8_BPwe9KFeWGIz5xHa7TN5Rj3R0pkPZCC1iIkQ7xBvqrhdgttQqrG0-JT-mhjUj4GG2GnxE4OIWzBuYadezm-V1CejkbKi0a3QR7RaHWxm61KH6vKAV4C7arXuuXcf4rr0fPT5VtHs-7aRr4a6aea0msR0VuE-Nh5e5ovqpGHFzi5xrrqpPTkUXDcUbsQiK-26hUIrlXX_YCBElqDWC1KiaU1ObPvQQejfQEMe0zZGXuzMBpyCqzsrnTYqwYmplfgJ0-oHpkm7uWK425Swg_hh6CYQ4mcKnKqpjGeO9MtEoG5g0OXe3DZc-IYguHzWHyN0KnuHV-0qB4HS9pAYtXdTjFfQB3bKYQiYE-jgWl9ddSG2RmQhuUBni8HcCtRRPNYB9wUguRqJanDtYyZnUD6qjzY217r6VEa450BvOjtfiTwlHE8dQw4AR3E3qYDhTyA-3apfQXUxPsdSfoGjyFlH_IptEwvTUOk7tMt-12YLljTCOVhrH8sQGVdY1sPHrFNthbkpF5y5jIOtUKv6WxHSrAwSLifKdpeFZpBVkt5WEhGLc50tr22N5DVMXUK4IJQptBtQ-GTSmTUzQ6EPdp5OavUWsxNeiNH9capBF7I9RETh-_Yb9ZlNVndkNUkbWqWL4npnSZ-kYCNh-z_y5PjOineiPbM8riX8X9b7f1kRVMNm2ElwaSl4KO01wb0AAmakxkRaOEI2c0-HIdLKrIzgVoUh2iopFS3TaY3FUBa51DldrtiYysSs6onU3LGtkOznU57p8Kf1v0PvtpDOVrJiq_zB2q72R8wCt61PQWjBmwAsF8zUv8fJpTLY9t00frg8AucqFp06Yme4iTSVMGsVBl4qm7j9JTbuZPtyQaRgMqDrGuKlC8MO1OvEQ-NmCUJBde86ff5FItk56-GdUcWs2wdpNQ90h3sWm8YyUP1utjwXxkaSJPhY7fKbQOnDWsDan1yBr0wRd9CpASDMKiRnGe8q2SSTaSIqZC625CVG9USykxpol6sjQuzVy1Kykl2BCXzp2GtaB3OKuxcq9sqxiCjssTieAnjNZvM8CdSIZpxU6vmi9lVImQBVclcfaPDrhJ_mT4rQ8bg98FETxSMhA2GWje-5phKeGB0XwD__LYa-1Oya9JBvfQFuyENfbEI273EEpluSXysZkHU2Sh40wRLo5SGUugAF3H2Ex0rbdHeCbtiVzilZdqkgJIATaUSw25qlviIMh2IR-TmNeDQJ04YcMuBkqoVjTuRukyFnGJdk1PCYr3b-m72wN2xUMivAMZ0lsa5o-XiDVhkPTB8PvEZbT4oRy3Rl8maIpZPTnE
+2025-05-12 16:40:56 - reCAPTCHA server response: {"success":true,"challenge_ts":"2025-05-12T14:08:03Z","hostname":"localhost"}
+2025-05-12 16:40:56 - reCAPTCHA verified successfully
+2025-05-12 16:40:56 - Fields validated successfully
+2025-05-12 16:40:56 - Email validated, proceeding to registration
+2025-05-12 16:40:56 - Attempting to add user: nom=mouhamed, email=hammamahmoud07@gmail.com
+2025-05-12 16:40:56 - User added with ID: 84
+2025-05-12 16:40:56 - Transaction committed
+2025-05-12 16:40:56 - Upload dir: C:\Users\hamma\Desktop\Travaille\integration\readme-Innoconnect-user\View\frontOffice/../../uploads/
+2025-05-12 16:40:56 - Photo validated successfully
+2025-05-12 16:40:56 - Photo uploaded to: C:\Users\hamma\Desktop\Travaille\integration\readme-Innoconnect-user\View\frontOffice/../../uploads/84_1747060856.jpg
+2025-05-12 16:40:56 - Encoding result: Traceback (most recent call last):
+  File "C:\Users\hamma\Desktop\Travaille\integration\readme-Innoconnect-user\View\frontOffice/../../scripts/generate_encoding.py", line 1, in <module>
+    import face_recognition
+ModuleNotFoundError: No module named 'face_recognition'
+
+2025-05-12 16:40:56 - Registration completed successfully with welcome message: Take charge as an admin, mahmoud! We're excited to have you on board at InnoConnect. Explore your new features and shape the future!
+2025-05-12 16:49:18 - User not logged in, redirecting to login
+2025-05-12 16:49:31 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-12 16:49:31 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-12 16:49:40 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-12 16:49:40 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-12 16:53:03 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-12 16:53:03 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-12 16:53:09 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-12 16:53:09 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-12 16:53:53 - Starting registration process
+2025-05-12 16:53:53 - CSRF token in session: 280f783ec00370afb199ca7467af48c6d08f5d34b5e7dc472a2564a85aecc289
+2025-05-12 16:53:53 - CSRF token from POST: 280f783ec00370afb199ca7467af48c6d08f5d34b5e7dc472a2564a85aecc289
+2025-05-12 16:53:53 - CSRF token validated successfully
+2025-05-12 16:53:53 - reCAPTCHA response received: 03AFcWeA6h8J24xGSTSyTVVQMVCOgSnQoUabl1oR7uLNP_e2yvuK0Kmpz5CX5Ea4ErGCTyl1b2P-w2g6JE4yhiewDQ8z6F1MAl81KFBrylYJ3lR0CPKuen3d4JZFJA2v1QHo82sVkTCm2Eudl7_wGX1_DzGhOImSU-7Wjy1a5qwZpswtMsomvKW8ch8QphPMh4bq-1ntdZnoiprY77uEAlYxAMEWvMGaECyFtXiNGLSFsz5o27T3fr6OzuwNuHxpDgDSq0Ecz6Fz1W5JBHuTbeP_31PTa2hS8bZQYVVuhj7JbvXptaZkWdvLkVIz3cd_Ut_Mw2xerqlUJMukvPnMV6U6EJfWCfM44hpyYyxiPMKhh3V7ZP5EMDkaW47v4eycAZxzlhI8t3rGdc3saty5HpZHwz9_OJARJae7uhQ9EdBj6z-Km1upmLfjiRUh9tOlz7tYvwNTZs7vqf47XNaRU86TgrFEVHPiZcvHtBy93MwhzuRdon5gPoLSboYW7HHVg3csZOgZOxvZ-HzaXSihMrlsaTaXWxToilr8TGDI08vby7P8eQS6LixsJRDJEk787TjS7_wcP3oALswLikFr7G0u28DRQdhK_w2Txi3k3acMHENkumLfbgSQQqbm95pwk3VUVbk1g9BqqmvoxkR2z2JDzDDRIDL5zZQjRSCnN3Tbahx-ENQ2seGRHOWCEJB62vlDL0InphQVYeVgmxva5c8WFFS_dOEAUYRAKz8ArizusbdGdeSkKcu_cYZkydv5w7yL9ghe8V3drhBUkaPd-lR5PWTQhEh8t3cY8ny8fzlx1zXXJ9rB4-Tv75GIZxFeGlyp2adk_ViCOfQdv8aUYHscW8JO_eExYl6GMOcRau4WStfXY75hKxTjMjrSBBXNgJGnSpoa8-4avVL48eMjaieOWZTfobRd5JTAFPjLzzK5nL5LWWgQoOODMsZFVLY472GmthWDGhvhyGtNFdtdrO4xVzaBeG--5cuOdH7bjjMNH_pA4Dbt9WAcfY7N1d_CsXwASXgg3rMr1Y6q5cNvBXAr8N8Gbujn_QuUSryIESVU5WjBZWI5XhykT2VfV7RqXArIoBIRig1hdg4reCuqZt3kCvMN1S8h16nvkkyi9Nu0xy_IzZ_OJKqLU8uckbyCMjessRSOv_Hva79VORBYY3Dzsp-g3Ah1fkwFrEiHyRK1MnSHDEXhnXw9EqM3EB9TmheP46fLzxOEVIO4NAFoWIGLrE0gbJE_ZatiUsnol3u25f30oHaUavnoIFnVC3V88QcFjEzjBZprilTsIP-pF9yUwYiUDGG00r9tk1q2DT-yFkMlEktNcdTV_1ZgWgv4rj-rG3XM_3ID64d0DvVD3Mvk6y-d8lK9BDv_TSHUN2C1dtgKB1DbHIrHqaKGzh2zo8SsyabODn3WVYAnEB4LBxuhiAzvwstcdS3YyKBTGrWIclic23LI9lAlQVSrSl8wpODTGO5k75G64vcQ-5DcIRyylgok9ENbAUkSQ5EpGZARJHqVMhoz0JtqtPyyWn1HfeiYZFvMu0TgbprsWHjhQ1Pbmtwv3Wmpg3qaPlnMzOUW2XiVOBvfpolz41RYqXmbLsPG6ZtSTmrlBqAn5yTxZwPqscrRxhvpMWU21AeJY5yONawm9MVdfsgH5jTQMfqRl9O94EIXDS0WCmi9i5wiBmhpR3bHTUKI7dfsPpzNHsIjeOhp-4EbOWdTHN7RJ8fa3iftnj_qiLJWvroEMLFJIPpDx0DlUsXiae_5VJkF2VMLYkRQY2P9zc56eXgbcQbdW39RgiG61h46LEqw8nkbaKBeBW31LblFTLdD6mRyOu0688ZvcLlKn8LtKW4GKEXeva6nvBkW_PIk17r8ff3DIyeWt58lg0DHZ_jiJOmJE4pSAsjruHpY5GWuoCb8EuVEXVSBjRH_Esj8kj49NP025m6hQllBqbSDM-iQpuwVCHXLMiS2ZLmJ7wZwzuGDQ_-hFwifOiEYFa5EgZULh5TySRgKAY8Wy9cMyLJVkVXwKOvsuB4h3wRkT5j6tHz5NUHniDSAMSMs5CMozAm56SfYhRx4KI3VPMsJaOHlP0-AoFXQwXn8aN6ozK7krk270HrsOeEUNepCZ2gAdKhsuH0YXbAl_iOdqKqIoiuvwRFvpR3zv63Oj4bjLV4AQxs4-Q5ZPes40RCJzbFYOBLhZIqRZcjrvwDfZ04w54T7xWTO7neRhAl_fNUHOEopsmSCYtm37Z2TTYMoYvy-QnlztT8b_UrS3EQkMp-Fbm5IzYMU3Gotxm0F6JzPm-FQSPLmkM3W3NkYRtMWqSA5LjqCSdhqHWV5HrMVYmRIdn4A
+2025-05-12 16:53:53 - reCAPTCHA server response: {"success":true,"challenge_ts":"2025-05-12T14:53:19Z","hostname":"localhost"}
+2025-05-12 16:53:53 - reCAPTCHA verified successfully
+2025-05-12 16:53:53 - Fields validated successfully
+2025-05-12 16:53:53 - Email validated, proceeding to registration
+2025-05-12 16:53:53 - Attempting to add user: nom=dhaw, email=admin@covoituni.tn
+2025-05-12 16:53:53 - User added with ID: 85
+2025-05-12 16:53:53 - Transaction committed
+2025-05-12 16:53:53 - Upload dir: C:\Users\hamma\Desktop\Travaille\integration\readme-Innoconnect-user\View\frontOffice/../../uploads/
+2025-05-12 16:53:53 - Photo validated successfully
+2025-05-12 16:53:53 - Photo uploaded to: C:\Users\hamma\Desktop\Travaille\integration\readme-Innoconnect-user\View\frontOffice/../../uploads/85_1747061633.jpg
+2025-05-12 16:53:53 - Encoding result: Traceback (most recent call last):
+  File "C:\Users\hamma\Desktop\Travaille\integration\readme-Innoconnect-user\View\frontOffice/../../scripts/generate_encoding.py", line 1, in <module>
+    import face_recognition
+ModuleNotFoundError: No module named 'face_recognition'
+
+2025-05-12 16:53:53 - Registration completed successfully with welcome message: Get ready to innovate, dhaw! We're excited to have you on board at InnoConnect. Explore your new features and shape the future!
+2025-05-12 16:58:06 - User profile loaded for ID: 85, photo_profil: 85_1747061633.jpg
+2025-05-12 16:58:06 - Attempting to display profile picture: ../../uploads/85_1747061633.jpg
+2025-05-12 17:01:22 - User profile loaded for ID: 85, photo_profil: 85_1747061633.jpg
+2025-05-12 17:01:22 - Attempting to display profile picture: ../../uploads/85_1747061633.jpg
+2025-05-12 17:01:28 - User profile loaded for ID: 85, photo_profil: 85_1747061633.jpg
+2025-05-12 17:01:28 - Attempting to display profile picture: ../../uploads/85_1747061633.jpg
+2025-05-12 17:01:48 - User profile loaded for ID: 85, photo_profil: 85_1747061633.jpg
+2025-05-12 17:01:48 - Attempting to display profile picture: ../../uploads/85_1747061633.jpg
+2025-05-12 17:01:51 - User profile loaded for ID: 85, photo_profil: 85_1747061633.jpg
+2025-05-12 17:01:51 - Attempting to display profile picture: ../../uploads/85_1747061633.jpg
+2025-05-12 17:02:08 - User profile loaded for ID: 85, photo_profil: 85_1747061633.jpg
+2025-05-12 17:02:08 - Attempting to display profile picture: ../../uploads/85_1747061633.jpg
+2025-05-12 17:02:23 - User profile loaded for ID: 85, photo_profil: 85_1747061633.jpg
+2025-05-12 17:02:23 - Attempting to display profile picture: ../../uploads/85_1747061633.jpg
+2025-05-12 17:49:59 - User profile loaded for ID: 85, photo_profil: 85_1747061633.jpg
+2025-05-12 17:49:59 - Attempting to display profile picture: ../../uploads/85_1747061633.jpg
+2025-05-12 17:50:12 - User profile loaded for ID: 85, photo_profil: 85_1747061633.jpg
+2025-05-12 17:50:12 - Attempting to display profile picture: ../../uploads/85_1747061633.jpg
+2025-05-12 18:00:54 - User profile loaded for ID: 85, photo_profil: 85_1747061633.jpg
+2025-05-12 18:00:54 - Attempting to display profile picture: ../../uploads/85_1747061633.jpg
+2025-05-12 18:00:58 - User profile loaded for ID: 85, photo_profil: 85_1747061633.jpg
+2025-05-12 18:00:58 - Attempting to display profile picture: ../../uploads/85_1747061633.jpg
+2025-05-12 23:00:55 - User profile loaded for ID: 85, photo_profil: 85_1747061633.jpg
+2025-05-12 23:00:55 - Attempting to display profile picture: ../../uploads/85_1747061633.jpg
+2025-05-12 23:01:13 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-12 23:01:13 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-12 23:14:22 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-12 23:14:22 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-12 23:14:27 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-12 23:14:27 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-12 23:27:27 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-12 23:27:27 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-12 23:27:48 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-12 23:27:48 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-12 23:28:40 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-12 23:28:40 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-12 23:29:57 - Starting registration process
+2025-05-12 23:29:57 - CSRF token in session: 3b384be8c539d66566c17c4cf0e49f2cdc434b641ea378881eb70c6912c70e2e
+2025-05-12 23:29:57 - CSRF token from POST: 3b384be8c539d66566c17c4cf0e49f2cdc434b641ea378881eb70c6912c70e2e
+2025-05-12 23:29:57 - CSRF token validated successfully
+2025-05-12 23:29:57 - reCAPTCHA response received: 03AFcWeA6T6I1mQMADtfiL_5iEPXVOLuy_d_83mCZ5M0l-5U6GgD84UIf986EArazwab7glFBDqf2LdMxTBn22sNF6FlzWhzvO3WcE5yjTfPRb-kA3oTJPUl_xs1m_Ap4GqpYGYctdP44yvhPT-9_udQxY5nrICrvkkHGzTzcd3gSHZZ2Xb2Pm42lihefDN2jaD-Hm6cczOIEIwaIXvz66UYFTQcA8RBYsCTFExH9EFdGZcPm1vN5j1byZ3WqE5BKXSKvOg1_uBbIR2XzFXgkp0ttlZuS0FsChj2BSb6C3BEefERjX6R5oBj7tP6BpAHVf8mrIFcdRAarWw-6_FSibs4jnSgeM97_9USeNoh6qy-nV-d9hESEIIxqStSH3LS0rNExboTDMeRkBY8tbzDrsQaRTWbTSyGY_h5MewO3zXM2_-oCjaQBPQgwfjEsU2uqG3aWNCeD2XmPnZSjKZKpCt6aw4oRQyqqAVnh4Mnnsd3ifIbN7QOXyVvhgHr-xNJKANLqU5AFCefG80dpyORBrykIQJSB-ud4hIsCM5dduRBuPdG41DkcxEzMuh1ITlhI9M-wJIcgBPthJTEKL2sv0YoSo4eQh7_Lff5XU_Q3j3-PVUVcFUc-OsCS2V0qGd3XoS-EI6B9Fesh_zrXXMlVc0woI1hYPzjPyH3b3XdUZXleWtenkREW4P-rXftQ1POLlAoK49B6NwqAkqsprhsMC4k7IRhTuyyQoWiZt_etkzDHKXwUeKEGUz0n1YKDpq8-m7OoisHmkySgt2wcoRDJpbIEMWsvOEDfeEMCVgipVHkVOi2IlCugzQOczFrokRk1poabz1jsnstRyidBvMpYAeb_kPaGBHyXaVUB7qen8l2zxTTztVQrbOUidjXNEA_qZVqHSO9d_q1BcG_KGE8ivzATyZxaHNWwOfAJWm3GybCGjDOHNU0MAlOC7PdT4Qjq9J3PNSWaLr1jKXKG0RT8G9Fp0K_ETOI9jqzlJfLGRm8S_dcFVAgUQ7nhbA1mp1fIySbHWApwR9XhYR3GM22byjONIywh2-HAxrw17Br1k0tj3rssPBd94Fk4dKCQKnzKNs_gAxFVXSJDatL4dVamAiywn7ERu-n_JVUFeggA5x8txAJg993ojbDYbaZJrp31u4sJ5EGOK6B-86lyw1ynq5G59dCcZhHynYAQWa3EHa3ywmaK8ltRmz-MaPSwj6e-NW7q0ebU9WZjuR4PaF03BJ80bP8jPsbGjH0Hhgw0NICyBm3ZkFo1GMVeGsjjplbbmj352sL0RBBp4YtfwWkkReDgE0Dac5HKZOcyu4DUW1H8FZpg3hAbJytnZ1mG54AGrmfxh9lO5pKP4aupk_ZQAReS3z3OdxwhNdG9mSKa5JfFpZYaHTsiCN8OhorPzPS-Uc6J56_28m5qVHLRh64WoE2KGP3_eTEzSr6_ZIlJfQlPFrf_s3Rw4XgbwtQbmR5pFaweQu228h-c3GA2iVprtx4bsVMDN8hlVQ4_xGJIHdvC2rJ_TZ2fqFifPYecLrb3Nhba5INF5OQTpNEGiVLPqFf-JKB5OH6CXdW0iH1o0IehxgeJhPps4lnwqc6jN2e78pmdNitodWnLBlAq1UK535BW80QvtGuk8Hxe37zQPt6blgPWaZSiOtncZZOey-8YiWHiLN5DWGwI5P_VZdMZWfs58tHJOdhfeYWmGxd8l5QJ-03Z8lmFOv6cNEOmKPG_bog_ou2_MBFL82m8Yzyrvh--PN7R3CIn1ujRdRbObYbVm2fVtFcHxLjiBpvpcTGBg70A5rMCA6g4XR8J9i0C0GaBy-sOwGydFsttr2uQhJtuaqSrYARcDfKT5Nbok4si9wXefKrMhIgHrqnVPFWRU4V8oUeGvy3u8S1KVSVC78XxuI8EJdBX8rAK4NEdz2S1Qbpeu_gl7WDff1riZQCOddEjEBAMegeN2vePoMI4zpO5Z0zAsXlpL5iK99ltTazw6cIoTtaKPDH8VjD1eXwzV6rji_-ez8P6X-5XAcgdcAZ_HYjPbYo8yhWXET_AtWk4ZOm8vfuGh8s75f_I8PEuCLsxkrNBgtzB4uQ
+2025-05-12 23:29:57 - reCAPTCHA server response: {"success":true,"challenge_ts":"2025-05-12T21:29:07Z","hostname":"localhost"}
+2025-05-12 23:29:57 - reCAPTCHA verified successfully
+2025-05-12 23:29:57 - Fields validated successfully
+2025-05-12 23:29:57 - Email validated, proceeding to registration
+2025-05-12 23:29:57 - Attempting to add user: nom=dhaw, email=hammamahmoud01@gmail.com
+2025-05-12 23:29:57 - User added with ID: 86
+2025-05-12 23:29:57 - Transaction committed
+2025-05-12 23:29:57 - Upload dir: C:\Users\hamma\Desktop\Travaille\integration\readme-Innoconnect-user\View\frontOffice/../../uploads/
+2025-05-12 23:29:57 - Photo validated successfully
+2025-05-12 23:29:57 - Photo uploaded to: C:\Users\hamma\Desktop\Travaille\integration\readme-Innoconnect-user\View\frontOffice/../../uploads/86_1747085397.png
+2025-05-12 23:29:57 - Encoding result: Traceback (most recent call last):
+  File "C:\Users\hamma\Desktop\Travaille\integration\readme-Innoconnect-user\View\frontOffice/../../scripts/generate_encoding.py", line 1, in <module>
+    import face_recognition
+ModuleNotFoundError: No module named 'face_recognition'
+
+2025-05-12 23:29:57 - Registration completed successfully with welcome message: Take charge as an admin, dhaw! We're excited to have you on board at InnoConnect. Explore your new features and shape the future!
+2025-05-13 16:59:23 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 16:59:23 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 16:59:24 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 16:59:24 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 16:59:32 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 16:59:32 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 16:59:33 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 16:59:33 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 16:59:42 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 16:59:42 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 16:59:43 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 16:59:43 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:00:02 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:00:02 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:00:02 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:00:02 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:00:05 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:00:05 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:00:06 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:00:06 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:00:22 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:00:22 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:00:23 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:00:23 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:00:34 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:00:34 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:00:35 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:00:35 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:02:49 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:02:49 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:02:49 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:02:49 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:25:39 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:25:39 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:25:41 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:25:41 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:25:42 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:25:42 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:26:34 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:26:34 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:26:34 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:26:34 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:28:32 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:28:32 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:28:33 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:28:33 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:28:34 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:28:34 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:28:35 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:28:35 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:41:54 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:41:54 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:41:55 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:41:55 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:42:06 - Delete request received for ID: 52
+2025-05-13 17:42:06 - User deleted successfully: ID 52
+2025-05-13 17:42:14 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:42:14 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:42:15 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:42:15 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:42:26 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:42:26 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:42:27 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:42:27 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:42:29 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:42:29 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 17:42:29 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 17:42:29 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 19:39:24 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 19:39:24 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 19:39:25 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 19:39:25 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 19:41:42 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 19:41:42 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 19:41:43 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 19:41:43 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 19:50:51 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 19:50:51 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 19:50:52 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 19:50:52 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 20:05:29 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 20:05:30 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 20:05:31 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 20:05:31 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 20:05:39 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 20:05:39 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 20:05:40 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 20:05:40 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 20:35:20 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 20:35:20 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 20:35:21 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 20:35:21 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 20:38:51 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 20:38:51 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 20:38:52 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 20:38:52 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 20:38:55 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 20:38:55 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 20:38:56 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 20:38:56 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 20:38:59 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 20:38:59 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 20:39:00 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 20:39:00 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 20:39:00 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 20:39:00 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 20:39:01 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 20:39:01 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 20:39:03 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 20:39:03 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 20:39:04 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 20:39:04 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 20:40:47 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 20:40:47 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 20:40:48 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 20:40:48 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 20:44:29 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:44:29 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:44:29 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:44:29 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:44:31 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:44:31 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:44:32 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:44:32 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:44:33 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:44:33 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:44:34 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:44:34 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:44:36 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:44:36 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:44:37 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:44:37 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:44:37 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:44:37 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:44:38 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:44:38 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:44:38 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:44:38 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:44:40 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:44:40 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:44:40 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:44:40 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:44:43 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:44:43 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:44:43 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:44:43 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:44:50 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:44:50 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:44:50 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:44:50 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:44:54 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:44:54 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:44:54 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:44:54 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:44:55 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:44:55 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:44:56 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:44:56 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:44:56 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:44:56 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:44:57 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:44:57 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:45:30 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:45:30 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:45:31 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:45:31 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:45:32 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:45:32 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:45:32 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:45:32 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:45:33 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:45:33 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:45:34 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:45:34 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:45:38 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:45:38 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:45:39 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:45:39 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:45:42 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:45:42 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:45:43 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:45:43 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:45:44 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:45:44 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:45:44 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:45:44 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:45:44 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:45:44 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:45:45 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:45:45 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:47:20 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:47:20 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:47:21 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:47:21 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:47:22 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:47:22 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:47:22 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:47:22 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:47:23 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:47:23 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:47:23 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:47:23 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:50:00 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:50:00 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:50:01 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:50:01 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:50:03 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:50:03 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:50:03 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:50:03 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:50:24 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:50:24 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:50:25 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:50:25 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:50:26 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:50:26 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:50:26 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:50:26 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:50:26 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:50:26 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:50:27 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:50:27 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:52:11 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:52:11 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:52:12 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:52:12 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:52:13 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:52:13 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:52:14 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:52:14 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:52:14 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:52:14 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:52:14 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:52:14 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:52:17 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:52:17 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:52:18 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:52:18 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:52:21 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:52:21 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:52:22 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:52:22 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:52:22 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:52:22 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:52:23 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:52:23 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:55:08 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:55:08 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:55:08 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:55:08 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:55:44 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:55:44 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:55:44 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:55:44 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:55:49 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:55:49 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:55:50 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:55:50 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:55:50 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:55:50 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:55:51 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:55:51 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:55:51 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:55:51 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:55:52 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:55:52 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:55:57 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:55:57 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:55:57 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:55:57 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:56:42 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:56:42 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:56:43 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:56:43 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:56:45 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:56:45 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:56:46 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:56:46 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:57:41 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:57:41 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:57:41 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:57:41 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:57:45 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:57:45 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 20:57:45 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 20:57:45 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 21:00:21 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 21:00:21 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 21:00:21 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 21:00:21 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 21:00:27 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 21:00:27 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 21:00:28 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 21:00:28 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 21:00:30 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 21:00:30 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 21:00:31 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 21:00:31 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 21:00:35 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 21:00:35 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 21:00:35 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 21:00:35 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 21:00:55 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:00:55 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:00:55 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:00:55 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:02:41 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:02:41 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:02:42 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:02:42 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:08:31 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:08:31 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:08:31 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:08:31 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:11:23 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:11:23 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:11:24 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:11:24 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:11:41 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:11:41 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:11:41 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:11:41 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:14:41 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:14:41 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:14:42 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:14:42 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:15:21 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:15:21 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:15:21 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:15:21 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:17:13 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:17:13 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:17:14 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:17:14 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:17:17 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:17:17 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:17:17 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:17:17 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:18:43 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 21:18:43 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 21:18:44 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 21:18:44 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 21:18:47 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 21:18:47 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 21:18:47 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 21:18:47 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 21:18:50 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 21:18:50 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 21:18:50 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 21:18:50 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 21:19:30 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 21:19:30 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 21:19:30 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 21:19:30 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 21:23:16 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 21:23:16 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 21:23:17 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 21:23:17 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 21:23:44 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:23:44 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:23:45 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:23:45 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:23:52 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:23:52 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:29:22 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:29:22 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:29:23 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:29:23 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:29:46 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:29:46 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:29:47 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:29:47 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:33:51 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:33:51 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:33:52 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:33:52 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:34:20 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:34:20 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:34:20 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:34:20 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:36:26 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:36:26 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:36:26 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:36:26 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:38:21 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:38:21 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:38:22 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:38:22 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:38:32 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:38:32 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:38:33 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:38:33 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:39:16 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:39:16 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:39:17 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:39:17 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:39:36 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:39:36 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:39:37 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:39:37 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:39:41 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:39:41 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:39:42 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:39:42 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:40:40 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:40:40 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:40:41 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:40:41 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:44:58 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:44:58 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:44:59 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:44:59 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:48:05 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:48:05 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:48:06 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:48:06 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:48:11 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:48:11 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:48:12 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:48:12 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:48:19 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:48:19 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:48:19 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:48:19 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:48:59 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:48:59 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:48:59 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 21:48:59 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 21:52:53 - Starting registration process
+2025-05-13 21:52:53 - CSRF token in session: 65d7c7cfd2e8f76064a8de1cde42a634c412754e764285280e4bbf6ce4559d80
+2025-05-13 21:52:53 - CSRF token from POST: 65d7c7cfd2e8f76064a8de1cde42a634c412754e764285280e4bbf6ce4559d80
+2025-05-13 21:52:53 - CSRF token validated successfully
+2025-05-13 21:52:53 - reCAPTCHA response received: 03AFcWeA7_8HmKZFZfGDGb-1vKGQ0cGwExa6ts3U4g6wGiIghj4AJDfray5uLGyVCYgQyv_QzH9_41tQdXeUobNzv3t4fQoX7CAMN1RD2sxxpIJapbdvaOWzkaWyUjilXYhF67JY7-tOMbXp01RriwzI66RN9AD10Jq_JKaV0PtoeDe-e_UlEw5nnFVsyKzto3HBP095OV3tDPK1bDNAD0_39hyMNqEc097vywJiPm64YUP8b43HNJUemcwc5_A7iqzxoaMrXRljIJYdirDDwOV1Laj8RgIndzdDhv7qkSUqMt75FMvs5-EG5Nwz3eN3qLs8sEE33qZ4n4G99Zl5b18R1O4p9OXIBtAm_zNh0obhnoVPWnAHLK_DCZX8SVpE8alWJTAgPMmnnJTipS9nsviQRb0qKDpelVui7gAIRbfJp5qoI0ufcPtQ-fzCWgoH8VJdeBonEri7TeSE9upxFJSyKWMYkBkigRH1mBFnat7Pglhr88Ln7Jz0l10-x8CXh26f5EqPB-Wsvg-1uu3UuJcc2NfjqTfsn5fR4ZrMtd9VsAxhROg0F2hSMGT1uVtXuVc3tbjFtvVSC9T_RAEYFBllRKOOLYr_KOEISzLj8P7kvyJPtfFRF7zHw5WjqHIysHICnmGuifE8YebTjclflCkn2Jrkkz0dbTxNLEXAsvpZipVjJCk91NMCfrDBfk16GrSPqc4He3U7dFQ0wxXqb4O-H1SAwW0eagjmzHAFN5q3w4dtNAY1x_qv8ma-K0LmzEkJbeQgQS4K_jisTg5dfpe5Mj62pbdy4CxHANaAOadzv5LKCFEvAeKL3jLvr8-Z0YYTZmEVCYdrWniwpSP1yWOrJJBbRgQ0uSJiBF13jyf2yDh6LfA5gApq-cLkCn7knqpCJd8q8Ty6U5_j-PsvHsp5qR5YY-AdrYL4w3dmLFV_9th6Sp2sSc57tYJJCjjoR7cAnx-FHwVUvW4LJUBcAKESU2U4c2rtyEBprD-jxP0lnBBn_4jjMbJ9mxX_sLQ0avLvqQ3HpD-XNb-alp2sAp-21Ue-0Kd0G7kuggNxUDVLiUAjumtxFrwQDd-Mio06f_64lAjN1IBhwc1tx1OiGed6LAHhUm9gFrcnDsU_hNhgu2MY2TtcbDw_nJgPxX5YzYt46SLsY291hF6Dgx2O8xhfi2QU0XjOU0CG35KyfbCUTpgZNWSukd06Jt638UNqlEEriZlZ7dQ6rv0y-4MGGK76gCQMUCI7MAlVhqetOeElObZmcsKvlRKCTTfFxBO2KYUwgehVjqR1c1eF9J8hybXcGNcCi19kcDoaWduMk4LeNbQyJHl8bc769obxYEvKKt51w4nHlAdaBlo1gGQrVIdYzNrsh1MafPf46ArN9-aCZECb9LpQyKyY7cviIcJplgUSzYJJoo69Wgbg0fdNMmrgMBpppxMYOmbN1KRJ4dE_bXUXZdPV7HWsrpnbLogUEjD1xzdggfSPL7-EOcmU1knIPPtxKDGX_nUwh7wGmW0Rn59oTpb5rho5peK38FpJ3EI4nDu89TaQ28MXcqXPvPF9lGhKkDKAGTi-FzVDQLwyOdTzTdzPBcp02mwf8N5GmypeoqK_B51D4wtVTE_MSqTGawK4szZL5sDyM7NHcvMCCPOMcQuIdQ4JQcIqB2DyyQa8U10yPg0LaSbm6fZ_O5PVWYqGxKLBrsgrO0FzWG0z0-OopvjPDapmqIV2QSvoQkBONJHdBTC5HtjDFYNVVqrRSmsgH1jUIQuvsBxctfRK7vPuBYBEsLMyvGjdjSV8wj703gPOX-M-EP7CnoNXOSzGiDAzdbgmM_pg3B9cBFDR0m_uCtrgygfS_Q3q3G7APVG3r4-pBdjLCbj5dEOWLNe0YvAZNP8QTDGxxUmzJdtF1PcakDILuNBWVJQDbbUavMfVy4nzIArgkz4KD4lAdYSa27WeCwRgck6bEL3He5C8LEjRmLF2m_4RzvGMQAh2p_Pc0EVdgPQX6upYZq5-B5PRyhdKwfMItx7-igkLIn9nLjueU5AKW9UupcWwgrSkZsCx3gU2EkecqHjTGfvu5K32E3-C-ms1BGlrEC8vrLwk_4-BjgxqTAIw1ZiCorCFC_op9oq1KVBM6mGall5VfCMrWiK5xuoMxgMRyQd2pL8IDXwVBljkWQYa4RcghGM8QWwee2nyEPDQVPJAqmK-X2jSztY5PITPefiTTxHzykqWomKGyEQ2viTHbzDADBhi9EYUBiUZghCBKw74wAKzrjzNtdU6OSF3ygn2K3gi6H3rRc9a4b5u46dBR-sXPBCiVkEYXcLBRa1A7K5KDfp7Ft3nAxmzSbAXv29Q
+2025-05-13 21:52:54 - reCAPTCHA server response: {"success":true,"challenge_ts":"2025-05-13T19:52:04Z","hostname":"localhost"}
+2025-05-13 21:52:54 - reCAPTCHA verified successfully
+2025-05-13 21:52:54 - Fields validated successfully
+2025-05-13 21:52:54 - Email validated, proceeding to registration
+2025-05-13 21:52:54 - Attempting to add user: nom=chakroun, email=chakrounnermine@gmail.com
+2025-05-13 21:52:54 - User added with ID: 87
+2025-05-13 21:52:54 - Transaction committed
+2025-05-13 21:52:54 - Registration completed successfully with welcome message: Get ready to innovate, nermine! We're excited to have you on board at InnoConnect. Explore your new features and shape the future!
+2025-05-13 21:53:15 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 21:53:15 - No photo_profil set for user ID: 87
+2025-05-13 21:53:16 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 21:53:16 - No photo_profil set for user ID: 87
+2025-05-13 21:53:26 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 21:53:26 - No photo_profil set for user ID: 87
+2025-05-13 21:53:26 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 21:53:26 - No photo_profil set for user ID: 87
+2025-05-13 21:54:05 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 21:54:05 - No photo_profil set for user ID: 87
+2025-05-13 21:54:06 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 21:54:06 - No photo_profil set for user ID: 87
+2025-05-13 21:57:59 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 21:57:59 - No photo_profil set for user ID: 87
+2025-05-13 21:58:00 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 21:58:00 - No photo_profil set for user ID: 87
+2025-05-13 21:59:05 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 21:59:05 - No photo_profil set for user ID: 87
+2025-05-13 21:59:05 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 21:59:05 - No photo_profil set for user ID: 87
+2025-05-13 21:59:24 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 21:59:24 - No photo_profil set for user ID: 87
+2025-05-13 21:59:24 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 21:59:24 - No photo_profil set for user ID: 87
+2025-05-13 22:03:30 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:03:30 - No photo_profil set for user ID: 87
+2025-05-13 22:03:31 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:03:31 - No photo_profil set for user ID: 87
+2025-05-13 22:08:31 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:08:31 - No photo_profil set for user ID: 87
+2025-05-13 22:08:32 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:08:32 - No photo_profil set for user ID: 87
+2025-05-13 22:08:36 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:08:36 - No photo_profil set for user ID: 87
+2025-05-13 22:08:37 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:08:37 - No photo_profil set for user ID: 87
+2025-05-13 22:09:10 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:09:10 - No photo_profil set for user ID: 87
+2025-05-13 22:09:11 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:09:11 - No photo_profil set for user ID: 87
+2025-05-13 22:10:02 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:10:02 - No photo_profil set for user ID: 87
+2025-05-13 22:10:02 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:10:02 - No photo_profil set for user ID: 87
+2025-05-13 22:10:06 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:10:06 - No photo_profil set for user ID: 87
+2025-05-13 22:10:06 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:10:06 - No photo_profil set for user ID: 87
+2025-05-13 22:10:24 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:10:24 - No photo_profil set for user ID: 87
+2025-05-13 22:10:24 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:10:24 - No photo_profil set for user ID: 87
+2025-05-13 22:10:36 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:10:36 - No photo_profil set for user ID: 87
+2025-05-13 22:10:37 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:10:37 - No photo_profil set for user ID: 87
+2025-05-13 22:10:41 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:10:41 - No photo_profil set for user ID: 87
+2025-05-13 22:10:42 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:10:42 - No photo_profil set for user ID: 87
+2025-05-13 22:13:57 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 22:13:57 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 22:13:57 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 22:13:57 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 22:14:02 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 22:14:02 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 22:14:03 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 22:14:03 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 22:15:30 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 22:15:30 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 22:15:30 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 22:15:30 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 22:15:39 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:15:39 - No photo_profil set for user ID: 87
+2025-05-13 22:15:40 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:15:40 - No photo_profil set for user ID: 87
+2025-05-13 22:15:45 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:15:45 - No photo_profil set for user ID: 87
+2025-05-13 22:15:45 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:15:45 - No photo_profil set for user ID: 87
+2025-05-13 22:16:21 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 22:16:21 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 22:16:21 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 22:16:21 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 22:23:04 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:23:04 - No photo_profil set for user ID: 87
+2025-05-13 22:23:04 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:23:04 - No photo_profil set for user ID: 87
+2025-05-13 22:23:13 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:23:13 - No photo_profil set for user ID: 87
+2025-05-13 22:23:13 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:23:13 - No photo_profil set for user ID: 87
+2025-05-13 22:23:37 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 22:23:37 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 22:23:37 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 22:23:37 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 22:23:51 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 22:23:51 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 22:23:51 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 22:23:51 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 22:25:09 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 22:25:09 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 22:25:10 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 22:25:10 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 22:27:11 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:27:11 - No photo_profil set for user ID: 87
+2025-05-13 22:27:12 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:27:12 - No photo_profil set for user ID: 87
+2025-05-13 22:27:22 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:27:22 - No photo_profil set for user ID: 87
+2025-05-13 22:27:23 - User profile loaded for ID: 87, photo_profil: NULL
+2025-05-13 22:27:23 - No photo_profil set for user ID: 87
+2025-05-13 22:30:20 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 22:30:20 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 22:30:20 - User profile loaded for ID: 83, photo_profil: 83_1747057468.jpg
+2025-05-13 22:30:20 - Attempting to display profile picture: ../../uploads/83_1747057468.jpg
+2025-05-13 23:17:46 - Starting registration process
+2025-05-13 23:17:46 - CSRF token in session: 97f02f0390232ed7ffa748a927bf3baaed11baae97473b230dcb74bcdfd19e9b
+2025-05-13 23:17:46 - CSRF token from POST: 97f02f0390232ed7ffa748a927bf3baaed11baae97473b230dcb74bcdfd19e9b
+2025-05-13 23:17:46 - CSRF token validated successfully
+2025-05-13 23:17:46 - reCAPTCHA response received: 03AFcWeA4jPl3IMleZhHjTWyojU43CY11vinDYQmDhupHwgTc3ivCJuiyPyxdqzydhC2mhOpDlhLIvZVPrwKI5qys5Ym9VsaQj5oyr81y9cvcX9Yhi3i_g6l-qzLlt99tRPgiH2XJmLbcEHjTzsEHYsqpnAcITQEUQkpB5frQRm-f0pND-rsSmYn5beYqbKU11qx1yMhAcNXg3yEIZAhQ4aVrAQqS38L1QxUjgr__nXIAMkBGf7hyuytCVmp-fT5JbufxC-Nv8HLxR0OHVwyHFQFA9-eZlF6uvz_oCDMrwjYPcSxy8HkCRfpyaxnVMZiFAy_pjfEA9XokBqzTQCTdVhoE4-o4TGCxtwsOmYwpu8zmF7Ztc-SZS1GbM3enNuI8c28ZPaumqPAHNWmotBS1Fh-8rJuHKWdkdPnHQjrJoT0h3oxuSIm0gZ1hYRM08jdJIobc24X8DrKmpEFAQGYQuzQnDI0oSWL6-7-K5_BjZEdPJZ2K3zgStH2KajL0Sfj3tVxuwlHPy_rtV_RgCpmna88MyLBoCYksavW4sRnWvmMXlqrhhDfvXCrNfqEmzYUU0dK8MaDs8ehtxqmpqOAUYAD2Mm293L0nX7uatGJbZbCFd12NMTolt0ZYCOBOt3vgWB4LSW1V0zado1l7EDKRxkdEMfZT8tqef2ji39gVOy-i543zL6onJAbJoCbOUgZWvhRye30FUefrA5y3P4YrX1mykOT1nfxkxvctxZWW24enKtruMYR2jHLHtSuBIAmG5bWR7v8aGNyOXlrpwAGk_XBkGBjTxMC11okKssg6t_XoLK9MjxW-As2EpX_iv7QUZJ4EZapZ8AS6yXmRa6HtPuUtAUFTEu_qDlj0aitClu1fR2VP3-V1jXm1Yc31ioW1maC5n2Hs7AOn3JeONqZECg4ELPKs8MPpO-6OFE1_1VdwTUeu78_WhjJBCNb9UXO16hO2VJu0N1CpyS9dHrFNuX93oQif4ufFznaBNFjnBumw3ToNrTOSytsWcFYIbpGNxB3rH4A63cvYAIcspo8ki5NYKgoEpzb191kWrAz3EMFm1CKBvCHsPMdwAU4eHveQFND-N8ZsM6LbcxWzsuw_q3OHcTogpri3xfH1-PNWN3LtxEsv3QgX0HvwdND_-F4QxvPMX11zmbKA9C_BOimQX9oBzF3qx3P45r0ZmHHm63L6AjtmQnwvhiI4NJjUqi3rUllE1j9KkIItwZcMgZ7MwP_sFjE1HNek29YzY6NWRGeuVcaBP1E5Gg6onlztuPoISJUSbIk7beXwQUYljZiSraU5X2upO0ex3F-h0FjJTyPiJgOu3WMpaM1h5enMTG9DMUfssuvup6LzgRfvavfJka4gyJx0InbJJNeJaRmmZ_v6jOW8nzKoFg9IRbysQxUK_OJyvD7djzh05r8R29Ds05J2SukgftMgSL8KYtyMxaTT1tuSkgHDileae0mn-Ywkv_yAiGxKs4MzYYyPvR8Fb1x_Vg_MRc3whgDrByfl8tBiMyg6ky3xsq0uDk-5etC90dcC3oHwyHYJrrOJ2PiTDDwLSWJWfkQAAfkKLfDQVqjJ-WDABat9AIma5ihqVPVar5pXcq0LFQIx39lf5unvnbSORk3L0lWeG9Tn9sEEOO2YIBuqjlhse5n3WfSxHLPyx-2CnwMnNs9-806teNyU_2lk4CABfbWe_AM3z62KSU0ygbdRRsioSn-zqxDk6wI3V4IlUw1VazGtEAph37UxF5fFvMR35vqg_fWnXGU051NmQKUw79ZKEcsoaTXxKhq38Z6AT3UY-TT5A4zV1BlmyhN5XNVzkJrhbuvqNOsgCPQgAB_WSJjxvd8V2cBI5iIz1vyDbh5m0uin6Uvku6uYLMM78ux3yt6avbmdBO9Cy5FBx-74KOncAkIwZ_zWmieJDiNwzvDwaXPhgkfr_VTp7zzZqsB0MqYhGTTYxapMZD_QIFLNvhzjHp-KQeyP1fm3_mInFwH0SRcHdj8PqWzhiumN-dYEJeljJ0BFASqv-lJSjAItUs-lGxp50gmVdfTn05xNPSzdc8D2imy_6i2iNA_E2dC7Cs8qh96vHlCvD7-xVl_CVShEKXtGZjJBaQX48gNCvYU6NtZd98eNWOqyUmDn4hIrXF4S72Q
+2025-05-13 23:17:47 - reCAPTCHA server response: {"success":true,"challenge_ts":"2025-05-13T21:17:20Z","hostname":"localhost"}
+2025-05-13 23:17:47 - reCAPTCHA verified successfully
+2025-05-13 23:17:47 - Fields validated successfully
+2025-05-13 23:17:47 - Email validated, proceeding to registration
+2025-05-13 23:17:47 - Attempting to add user: nom=slouma, email=sloumahhh@gmail.com
+2025-05-13 23:17:47 - User added with ID: 88
+2025-05-13 23:17:47 - Transaction committed
+2025-05-13 23:17:47 - Registration completed successfully with welcome message: Welcome to the investment world, hhh! We're excited to have you on board at InnoConnect. Explore your new features and shape the future!
+2025-05-13 23:18:37 - Starting registration process
+2025-05-13 23:18:37 - CSRF token in session: 97f02f0390232ed7ffa748a927bf3baaed11baae97473b230dcb74bcdfd19e9b
+2025-05-13 23:18:37 - CSRF token from POST: 97f02f0390232ed7ffa748a927bf3baaed11baae97473b230dcb74bcdfd19e9b
+2025-05-13 23:18:37 - CSRF token validated successfully
+2025-05-13 23:18:37 - reCAPTCHA response received: 03AFcWeA5wxPn3fLrzIrC2R1wVrq9aBtbUdCdPfCqcQqJgnWXUsJUmYLUpsC7ZYE8QFFYxlPeJcDNOuKsPiN_hSBMP2ZKw9WDrc_w1eOe45JtSCnjw_jiht98zTZmh9xEBKnc756ZeKTE3COZYwaaOFtRuNiuuoDajRPTfQlpIfAbsmvDir2Znn3BMmfqNCvgGXMUT5q5mMVFeIbS2g7jwhooEC54IvBunovIPtjQqddgPO6SxiB40_PMLA4uk7LytVu5hjCXxbvqcCUFp-e-h0FVcToWsjMBMGXWR2YOah-H880qOvXH_ctTlpYL1QIi1A4XTt4fnmwF5yWCXTztYU2LIhByA8l9U70ViZSuLh8RSiENzZXC5S2zTAGKlhSovB2KBkOuk2B0GpktGdeukNheT-JGXIN70O-dQWp4YpUjirMGN5DuXzzYYzqI6yGMuvk5aNFwjzqtE-VweaUO45DUsRh9-oBIa-tj22FwXZuHiDk8nVTTGGJiAwInLxDCTaL_E1FN8njG7ub32H7cDBShJYytahYp0kEDAKC5IAKBC1yp_1BVBvD4xwnH4C6n8-P4ynAlwwSk9GwVHpM-qKFpi-vzvE8c82AwdMIWA-NtevHzDgHM8a_1FvX_cMsdKIBsDSONJE1iEmeBo2_sibQZB1hM-qMQ-gsaPUBTecRTg1GESfCgjzUbC7YmM7MyH6q_lrvMWQ1uXS2YNb5KmLpiHdCFL6_gZtG45ap-1hw6kAZ1TX86I0PPccC2wln5lLx2oY64pVHk-NdNvEuqDaCgKqmnR6YNs4f9zTvMzZxvRdzO1Xta6TmHn8B4NDwN2n35fdaTAwLE8QkXb930kVujc-WMSdQWZL4auL36c4HvhyD-y_qxemtEOV-cb4B5Axcxk8DLXf5-_NHupdmHktqddP7xbYqQzjQ8MJjZDn8nokXFrcxezl3GAJQYblWWajV-R33ZxM-R5w4A96-bYRKtiJK4iYtDc982EcfACxgEY36h9gUocns5cPwPNXFyIbumcCA67MnSPyX07KiaqzwpPhHcf_6_Qz2pC2MkOmlC4JlBYjU4GF6ocRqXxaE2AlVivGktG73OQeUrz3_PEXdS6iCYVgaeVnu0zf4m39OB6T50Nc0khlP5oGd3qUwXsewpBv9hSi-gjlrJNQFjlcX7nuQe8270pQNYTvqNbLnIq9GSCuvJtMabPgJOGY1sHDS1e2QWWLyImdLdRp9XjBrwT8MHpiWzyisKBlUn4zs87x27pLl_bTrsJsFdgHNS4zF6bF7aaM2QFIkTzxq7i2AXyQHzhFcx4B62Kq92Vd69BnIYdOBs1m3--v5Cb3R4zzA96qxm1sPXzkaxDZr6AcOGbNV-wfc_HZAAtPZ2aFg0YokepB1mNg3T5jrLMByZWxrpCDCkdqr6DyjI0h-D0bvaM8iU7HHOruD2L4lyGwBdX5OgkimT4UnAHLiR8d8U_M1oZtFwAXoM_8maG-5hytiO7YzdyvIerlLXswfl5fFKlgX6o3L7Rytyw6Q1ncXuAh4VuedTCamXlP9G1L65nieKEDsrVuP_7jLs8Nayi0dxpJtPFSTJBTmV_YyXYMJuTw2z6BgOg9D840ZuhAQ3E0CXrXjlyJNnN2HLOnTwfquGxFM4-X4VLDSzSCfNeGrMqqzQ5NXLzySVka5G501TBwMBBErAkmQF6pJjFLc8w01sR2JGa6DEjkEarkXrIr5YxbM07IeJgfpMlZapElorf_Woxg-kuRNcDQh9OahZjnwWfFIsM_lOwfSAus5IsBxVjZJxwWgzS9WnADqOSq2ILdHVBq5_CUHgyhEb2pZWYbehCiIiMW8Yo2KJwHrUZsru_l9ehNJdEvfb0sLC6ChwaP_4eowEbbAssGeqr_YefkIicF94nPC4N-rHNgcGM4VWx2GP0_RFkIpTa-63GaX7zVmmSClR9AbHFsBhqMkE2v2B6Ln-Qd3hMQjB0YV0qGdPMME6V1qEnhE41lg0MBL2DSNZUUz5W5rz-jzU31MCMpco-vhi_zBAutu3koDOUW7mq--Z-bCPtMoEQ6o2dv-cMe-kYJPCtNvSHt_bQagb-nWVcTB37AvRuEsNesQabtu-H1xwq-t_Xcr1hjTK619RFQoSfgura1RXsMh-xduIySM2P0CMR73-WHdQ
+2025-05-13 23:18:38 - reCAPTCHA server response: {"success":true,"challenge_ts":"2025-05-13T21:18:09Z","hostname":"localhost"}
+2025-05-13 23:18:38 - reCAPTCHA verified successfully
+2025-05-13 23:18:38 - Fields validated successfully
+2025-05-13 23:18:38 - Email validated, proceeding to registration
+2025-05-13 23:18:38 - Attempting to add user: nom=slouma, email=sloumaha@gmail.com
+2025-05-13 23:18:38 - User added with ID: 89
+2025-05-13 23:18:38 - Transaction committed
+2025-05-13 23:18:38 - Registration completed successfully with welcome message: Welcome to the investment world, ha! We're excited to have you on board at InnoConnect. Explore your new features and shape the future!
+2025-05-13 23:19:14 - User profile loaded for ID: 89, photo_profil: NULL
+2025-05-13 23:19:14 - No photo_profil set for user ID: 89
+2025-05-13 23:21:37 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 23:21:37 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 23:22:28 - User profile loaded for ID: 72, photo_profil: 72_1746531910.jpg
+2025-05-13 23:22:28 - Attempting to display profile picture: ../../uploads/72_1746531910.jpg
+2025-05-13 23:24:02 - Starting registration process
+2025-05-13 23:24:02 - CSRF token in session: ea97adf759434442829d60a39fe7157c471d19ade57ca1a2e14773b23c2ca66f
+2025-05-13 23:24:02 - CSRF token from POST: ea97adf759434442829d60a39fe7157c471d19ade57ca1a2e14773b23c2ca66f
+2025-05-13 23:24:02 - CSRF token validated successfully
+2025-05-13 23:24:02 - reCAPTCHA response received: 03AFcWeA5Vz95TIN8q71EUZl15eyiyJLtFrrKmDNZD8J-Xls5GZug_3Blcy0IPZbUMA-FBjLf-VVmaYfiOKuphCACYKnqTOLn224YPV4nSgawccvCCI40xJ4NMIEQhbk74rj-zq_bVKsfD-G8H-4ZimEq4EW7brrMK41O3w-sc7NA1r2TbgLJOt2hTI_wPv43SdyV0Lm4U0A8CPTIM6RpWbXKM7wFrk7FtEdAo_zvflS0ja04Z04KCGCsCsgSWVCG6-s7RoNTVQ9OFsAIf9zpqMCOAbvIW37WHVrRueJY0u8uuLX4PqwzNMxF__Mm4hXDWatxVtYcPqctaMPmPqVKetH1a9bls7hnhlfjStEhPkUldDDzgkmXD2eUSojL67LRJggceaDsEpOHJHMeaO8hvcTYD2vqUE0WrCuFw5IsyI7vIrEM1XTo6FK8MotABQ9mhEFaxc8yWmhNBKCCKWnXGBxLkB8IcLxyvyd4T5CvyWIf2iEixABStrtMhQ3DNMSNGsH94Ti76ghM_W2jiTqfUUvTcDiNxKxKz7i62Qf2dB4jD59r0v3CinNIzgK098WoQGvI0QnjStLz4b-t7AMqewfBSVu8Y0kI8EfVBa-bspg5cBIxJoB27dXKgxFa5fak2WOCjPaBpGlHmSL-o1mwcL5yBeNE8FTWK1eTeEds77p4QfGZLXx2y1eNcM3YtmPP_0gjyS2NyWELdt7i1uQI6FugJbweEK6gMntREIpyQRuYyff4clxdKBx1FTkQW-VRs1ag53nzcTXwTvLpcsZK5bLdqecr81eh6n94evuGzY-G0JhXeIAtqC42ESU1A49YPbcjCDQxvde6knCEBBC8gLNKWeQAVbaHlFVEzh1SvAwE77Hxme6dXVgjGW7xQGV1d8Qswd3eL0xfgN8DLHzf3d-AUa9krml6eLMQV7KF4r1Es9SvxmqDZf9oZ203dBMQKIIZlACvJMzrC6JVpsVFQGNJm9P6aYI_4lcoDKu76DUxHiwOZSH9smlZFRSE93QoOZwSN0c719uBqdYNwDfnQIA7xMs3IB9VwQ8gJdTsJDtNAqKDjTSBTchNQDGozP3ySEBFI3wDX-zheQFs_EqYHnVLAMZTn35w5pI-vJ56AWuT_s9y3loKrlYvN120XBoGf8ibD2Uv0stl_UZPm6PJCNfrvRJBa6sx5lUM0tml-w0NJ0u1WAVk4pnwRGoebSJhDVIOnKuTgX7AYCcg_KMvcRXkzWTwnctLMn8GpIDtd9Hq0FM9VVHj-asBCAXRs45KdIXqMdQwalKLGCOWbqn9NNUkr43oM6VSzOCvq9tsrNkyRPbGtUFgMAvUK6Ki4EL9cYVINATee7cto6HTKRT5cSg7JkdIKIchMGkiV2rEwZAb_ODWyhRPF7d9Hp-Dar8m3nkEuJeH4ALg_vc1NwyVgtZa_vjzMoQ49e5KWY4Y8nubQv8qPjHVCda-U2kYvCsMjGMXop_GP57qFXehAt0KPWtwLKvcx0xHc5_w2mZnx3Jx434hBI_dWux1YrUlDSO5CV4IT1XWLq3VJhF-SS2Ynu2W_MDSiH3wwzCT_Q1j7UsytctbVcG68z-gFcWYyN-wZnwMXOmq7oKvFVD_0Zvnsvk1adnJquxCMvidFOF5N1PMIchQ_A39yqZewxcFeDuYT-Mq64hneexxSRNc4sCPPuvI6ApqLLpJG3Tz6RCrCvbrUFrpxb38R9nG54YE2Ym1GqrvrtS0T4_EhsXkc68Bx3hChX-fTYJ2aGwREumddWfYn_w5AtPhbCQa97XT3Vk7CcCjfdNZ5lxysvMnxFWUqUSXUqYrzqjIF4Ve8zGpeRfOCbFVb30RFSL1XoQDQveZ76CCI-YDd66MywLZP0dlUGBahhbvqL8MnL39lEWNaThvfbcB40ekh2S0Cd0usWqa9Agdx5qaJLkdol9CTUy7iBXtGMja3gqjWxG5a4SEgdOLl9qJrIvEOUw8vNpZCKFWfG8Cpr4Wu6JhPpLlnlh6S0tS--7Rga35Kgu17ZuxtCdhVN3yKQpgNPrN_EzirBfsPHisgcoqCpSGY-8uEZGbPBbgbvCWF0QHVPTjFBB_C0rlEMsrJ4kzV8p0dBnVVeyBMgs0JkcVVu3j0E9UAE-7ZhyKy4TnMyYyEKKieQ9X670BRx__gEFZKwjw
+2025-05-13 23:24:03 - reCAPTCHA server response: {"success":true,"challenge_ts":"2025-05-13T21:22:38Z","hostname":"localhost"}
+2025-05-13 23:24:03 - reCAPTCHA verified successfully
+2025-05-13 23:24:03 - Fields validated successfully
+2025-05-13 23:24:03 - Email validated, proceeding to registration
+2025-05-13 23:24:03 - Attempting to add user: nom=NERMINE, email=nerminechakroun1@gmail.com
+2025-05-13 23:24:03 - User added with ID: 90
+2025-05-13 23:24:03 - Transaction committed
+2025-05-13 23:24:03 - Registration completed successfully with welcome message: Get ready to innovate, CHAKROUN! We're excited to have you on board at InnoConnect. Explore your new features and shape the future!

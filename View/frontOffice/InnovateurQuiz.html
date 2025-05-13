@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz de Financement</title>
+  <style>
+    /* CSS Variables */
+    :root {
+      --primary-color: #6f42c1;
+      --secondary-color: #6610f2;
+      --accent-blue: #094f88;
+      --text-dark: #2c3e50;
+      --text-light: #6c757d;
+      --background-light: #e3f2fd;
+      --white: #ffffff;
+      --gradient-purple: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+      --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.1);
+      --shadow-md: 0 5px 15px rgba(0, 0, 0, 0.1);
+      --transition: all 0.3s ease;
+    }
+
+    /* Override any background colors */
+    html, body {
+        background-color: #ffffff !important;
+        background: #ffffff !important;
+        background-image: none !important;
+    }
+
+    /* Body and general styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Quiz container */
+    .quiz-container {
+      max-width: 700px;
+      margin: 120px auto 60px;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .quiz-container h2:first-child {
+      color: var(--primary-color);
+      margin-bottom: 20px;
+    }
+
+    h2, h3 {
+      color: #333;
+    }
+
+    .quiz-question {
+      margin-bottom: 30px;
+    }
+
+    .quiz-options {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .quiz-option {
+      padding: 12px;
+      background-color: #eee;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+      border: 2px solid transparent;
+    }
+
+    .quiz-option:hover {
+      background-color: #ddd;
+    }
+
+    .quiz-option.selected {
+      background-color: #d1e7dd;
+      border-color: #0f5132;
+      color: #0f5132;
+      font-weight: bold;
+    }
+
+    .cta-button {
+      background-color: #6f42c1;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #6610f2;
+    }
+
+    .quiz-result {
+      margin-top: 30px;
+      padding: 20px;
+      background-color: #e9f5ff;
+      border-left: 5px solid #007bff;
+      border-radius: 8px;
+      display: none;
+    }
+
+    /* Footer styles */
+    .footer {
+      background: linear-gradient(135deg, #6f42c1, #6610f2);
+      color: white;
+      padding: 60px 0 30px;
+      margin-top: 50px;
+    }
+    .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    .footer-about {
+      margin-bottom: 30px;
+    }
+    .footer-about .logo {
+      font-size: 24px;
+      margin-bottom: 15px;
+      display: block;
+    }
+    .footer-about p {
+      margin-bottom: 20px;
+    }
+    .footer-links h4 {
+      margin-bottom: 20px;
+      font-size: 1.2rem;
+      color: white;
+    }
+    .footer-links ul {
+      list-style: none;
+    }
+    .footer-links li {
+      margin-bottom: 10px;
+    }
+    .footer-links a {
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    .footer-links a:hover {
+      color: white;
+    }
+    .social-links {
+      display: flex;
+      gap: 10px;
+    }
+    .social-links a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      background: rgba(255, 255, 255, 0.1);
+      color: white;
+      border-radius: 50%;
+      transition: all 0.3s;
+    }
+    .social-links a:hover {
+      background: white;
+      color: #4a6cf7;
+    }
+    .copyright {
+      text-align: center;
+      padding-top: 30px;
+      margin-top: 30px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 0.9rem;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      .quiz-container {
+        margin: 150px 20px 60px;
+      }
+      
+      header div {
+          flex-direction: column;
+      }
+        
+      nav ul {
+          flex-direction: column;
+          align-items: center;
+      }
+        
+      nav li {
+          margin: 10px 0 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header with consistent styling -->
+  <header style="background-color: #6f42c1; padding: 15px 20px; width: 100%; position: fixed; top: 0; z-index: 1000;">
+    <div style="display: flex; align-items: center; justify-content: space-between; max-width: 1200px; margin: 0 auto;">
+        <div style="display: flex; align-items: center;">
+            <img src="../../innoconnect.jpeg" alt="InnoConnect Logo" style="width: 40px; height: 40px;">
+            <h1 style="color: white; margin: 0 0 0 15px; font-size: 24px;">InnoConnect</h1>
+        </div>
+        <nav style="display: flex;">
+            <ul style="display: flex; list-style: none; margin: 0; padding: 0;">
+                <li style="margin: 0 15px;"><a href="../../index.html" style="color: white; text-decoration: none; font-weight: 500;">Home</a></li>
+                <li style="margin: 0 15px;"><a href="profile.php" style="color: white; text-decoration: none; font-weight: 500;">My Profile</a></li>
+                <!-- Innovateur-specific navigation -->
+                <li style="margin: 0 15px;"><a href="ContratInnovateur.php" style="color: white; text-decoration: none; font-weight: 500;">My Contracts</a></li>
+                <li style="margin: 0 15px;"><a href="InnovateurProjet.php" style="color: white; text-decoration: none; font-weight: 500;">My Projects</a></li>
+                <li style="margin: 0 15px;"><a href="InnovateurQuiz.html" style="color: white; text-decoration: none; font-weight: 500; text-decoration: underline;">Innovator Quiz</a></li>
+                <li style="margin: 0 15px;"><a href="logout.php" style="color: white; text-decoration: none; font-weight: 500;">Logout</a></li>
+            </ul>
+        </nav>
+    </div>
+  </header>
+
+  <!-- Quiz Content -->
+  <div class="quiz-container">
+    <h2>Innovator's Welcome</h2>
+
+    <h2>Quel type de financement correspond à votre projet ?</h2>
+
+    <div class="quiz-question" data-question="1">
+      <h3>1. Quel est votre besoin financier ?</h3>
+      <div class="quiz-options">
+        <div class="quiz-option">Moins de 50K€</div>
+        <div class="quiz-option">50K€ - 200K€</div>
+        <div class="quiz-option">Plus de 200K€</div>
+      </div>
+    </div>
+
+    <div class="quiz-question" data-question="2">
+      <h3>2. Souhaitez-vous conserver 100% du capital ?</h3>
+      <div class="quiz-options">
+        <div class="quiz-option">Oui</div>
+        <div class="quiz-option">Non</div>
+        <div class="quiz-option">Peu importe</div>
+      </div>
+    </div>
+
+    <div class="quiz-question" data-question="3">
+      <h3>3. Votre projet est-il éligible à des subventions ?</h3>
+      <div class="quiz-options">
+        <div class="quiz-option">Oui</div>
+        <div class="quiz-option">Non</div>
+        <div class="quiz-option">Je ne sais pas</div>
+      </div>
+    </div>
+
+    <button class="cta-button" onclick="showQuizResult()">Voir ma recommandation</button>
+
+    <div id="quizResult" class="quiz-result"></div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <a href="../../index.html" class="logo">InnoConnect</a>
+        <p>
+          Connecter les innovateurs avec les ressources dont ils ont besoin
+          pour transformer leurs idées en réalité.
+        </p>
+        <div class="social-links">
+          <a href="#">Twitter</a>
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <h4>Liens utiles</h4>
+        <ul>
+          <li><a href="../../index.html">Accueil</a></li>
+          <li><a href="profile.php">Mon Profil</a></li>
+          <li><a href="ContratInnovateur.php">Mes Contrats</a></li>
+          <li><a href="InnovateurProjet.php">Mes Projets</a></li>
+          <li><a href="InnovateurQuiz.html">Quiz Financement</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>© 2025 <strong>InnoConnect</strong> - Tous droits réservés</p>
+    </div>
+  </footer>
+
+  <script>
+    const options = document.querySelectorAll(".quiz-option");
+
+    options.forEach(option => {
+      option.addEventListener("click", () => {
+        const question = option.closest(".quiz-question");
+        const siblings = question.querySelectorAll(".quiz-option");
+
+        siblings.forEach(sib => sib.classList.remove("selected"));
+        option.classList.add("selected");
+      });
+    });
+
+    function showQuizResult() {
+      const selected = document.querySelectorAll(".quiz-option.selected");
+      if (selected.length < 3) {
+        alert("Veuillez répondre à toutes les questions.");
+        return;
+      }
+
+      const answers = Array.from(selected).map(opt => opt.textContent.trim());
+
+      let resultTitle = "";
+      let resultDescription = "";
+
+      if (answers[0] === "Moins de 50K€" && answers[1] === "Oui") {
+        resultTitle = "Crowdfunding + Subventions";
+        resultDescription = "Idéal pour les petits budgets sans dilution du capital.";
+      } else if (answers[0] === "Plus de 200K€" && answers[1] === "Non") {
+        resultTitle = "Capital-Risque";
+        resultDescription = "Vous pouvez attirer de gros fonds en cédant une partie du capital.";
+      } else if (answers[2] === "Oui") {
+        resultTitle = "Subventions + Prêts Innovants";
+        resultDescription = "Combinez aides publiques et prêts adaptés à l'innovation.";
+      } else {
+        resultTitle = "Business Angels";
+        resultDescription = "Des investisseurs privés peuvent vous aider à démarrer.";
+      }
+
+      const resultDiv = document.getElementById("quizResult");
+      resultDiv.style.display = "block";
+      resultDiv.innerHTML = `
+        <h3>Nous recommandons pour vous : <strong>${resultTitle}</strong></h3>
+        <p>${resultDescription} <a href="InnovateurProjet.php">Voir les options de financement</a></p>
+      `;
+    }
+  </script>
+
+</body>
+</html>

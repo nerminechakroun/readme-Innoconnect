@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InnoConnect - Plateforme d'Innovation</title>
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
+    <style>
+      :root {
+        --primary: #6f42c1;
+        --secondary: #6610f2;
+        --light: #f8f9fa;
+      }
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f5f7fa;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+      }
+      .header {
+        background-color: var(--primary);
+        color: white;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+      }
+      .header-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+      }
+      .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+      }
+      .btn-getstarted {
+        background-color: var(--secondary);
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .container {
+        text-align: center;
+        max-width: 800px;
+        padding: 2rem;
+        margin-top: 80px; /* Add margin to avoid overlap with fixed header */
+      }
+      .card-container {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 3rem;
+      }
+      .card {
+        background: white;
+        border-radius: 15px;
+        padding: 2rem;
+        width: 300px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+        cursor: pointer;
+      }
+      .card:hover {
+        transform: translateY(-10px);
+      }
+      .card h2 {
+        color: var(--primary);
+        margin-bottom: 1rem;
+      }
+      .card p {
+        color: #666;
+        margin-bottom: 2rem;
+      }
+      .btn {
+        background: var(--primary);
+        color: white;
+        border: none;
+        padding: 12px 25px;
+        border-radius: 50px;
+        font-size: 1rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s;
+      }
+      .btn:hover {
+        background: var(--secondary);
+        transform: scale(1.05);
+      }
+      .wallet-section {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+      }
+      .wallet-btn {
+        background: var(--primary);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 50px;
+        cursor: pointer;
+      }
+      .wallet-address {
+        background: rgba(67, 97, 238, 0.1);
+        padding: 8px 15px;
+        border-radius: 50px;
+        font-family: monospace;
+        margin-top: 10px;
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header violet -->
+    <header class="header">
+      <div class="header-container">
+        <a href="index.html" class="logo">InnoConnect</a>
+        <a href="index.html" class="btn-getstarted">Get Started</a>
+      </div>
+    </header>
+
+    <div class="wallet-section">
+      <button id="connectWallet" class="wallet-btn">Connecter Wallet</button>
+      <div id="walletAddress" class="wallet-address"></div>
+    </div>
+
+    <div class="container">
+      <div class="logo">InnoConnect</div>
+      <h1>Bienvenue sur la plateforme d'innovation collaborative</h1>
+      <p>Connectez-vous et choisissez votre espace</p>
+
+      <div class="card-container">
+        <!-- Carte Innovateur -->
+        <div class="card">
+          <h2>Innovateur</h2>
+          <p>Créez et gérez vos projets innovants, obtenez des financements</p>
+          <button
+            class="btn"
+            onclick="window.location.href='InnovateurQuiz.html'"
+          >
+            Accéder à l'espace
+          </button>
+        </div>
+
+        <!-- Carte Investisseur -->
+        <div class="card">
+          <h2>Investisseur</h2>
+          <p>Découvrez et financez des projets innovants</p>
+          <button
+            class="btn"
+            onclick="window.location.href='Investisseur.php'"
+          >
+            Accéder à l'espace
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Gestion de la connexion wallet
+      document
+        .getElementById("connectWallet")
+        .addEventListener("click", connectWallet);
+
+      async function connectWallet() {
+        if (window.ethereum) {
+          try {
+            await window.ethereum.request({ method: "eth_requestAccounts" });
+            const provider = new ethers.providers.Web3Provider(window.ethereum);
+            const signer = provider.getSigner();
+            const address = await signer.getAddress();
+
+            document.getElementById("connectWallet").style.display = "none";
+            document.getElementById(
+              "walletAddress"
+            ).textContent = `${address.substring(0, 6)}...${address.substring(
+              38
+            )}`;
+            document.getElementById("walletAddress").style.display = "block";
+          } catch (error) {
+            console.error(error);
+            alert("Erreur de connexion: " + error.message);
+          }
+        } else {
+          alert("Veuillez installer MetaMask!");
+        }
+      }
+
+      // Navigation entre les interfaces
+      function navigateTo(interfaceType) {
+        if (!document.getElementById("walletAddress").textContent) {
+          alert("Veuillez d'abord connecter votre wallet");
+          return;
+        }
+
+        if (interfaceType === "innovator") {
+          window.location.href = "InnovateurQuiz.html"; // À remplacer par votre page Innovateur
+        } else {
+          window.location.href = "Investisseur.php"; // À remplacer par votre page Investisseur
+        }
+      }
+    </script>
+  </body>
+</html>

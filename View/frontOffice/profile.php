@@ -1,10 +1,10 @@
 <?php
-include $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/config.php';
-include $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/Controller/utilisateurC.php';
+require_once __DIR__ . '/../../config.php';
+require_once __DIR__ . '/../../Controller/utilisateurC.php';
 session_start();
 
 // Log file for debugging
-$logFile = $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/debug.log';
+$logFile = __DIR__ . '/../../debug.log';
 function logMessage($message) {
     global $logFile;
     file_put_contents($logFile, date('Y-m-d H:i:s') . " - " . $message . "\n", FILE_APPEND);
@@ -60,7 +60,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update'])) {
     // Handle photo upload
     $photo_profil = $user['photo_profil'];
     if (isset($_FILES['photo_profil']) && $_FILES['photo_profil']['error'] === UPLOAD_ERR_OK) {
-        $uploadDir = $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/uploads/';
+        $uploadDir = __DIR__ . '/../../uploads/';
         if (!is_dir($uploadDir)) {
             mkdir($uploadDir, 0777, true);
             logMessage("Created upload directory: $uploadDir");
@@ -159,8 +159,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update'])) {
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete'])) {
     try {
         // Delete the user's photo if it exists
-        if ($user['photo_profil'] && file_exists($_SERVER['DOCUMENT_ROOT'] . '/' . $user['photo_profil'])) {
-            unlink($_SERVER['DOCUMENT_ROOT'] . '/' . $user['photo_profil']);
+        if ($user['photo_profil'] && file_exists(__DIR__ . '/../../' . $user['photo_profil'])) {
+            unlink(__DIR__ . '/../../' . $user['photo_profil']);
             logMessage("Deleted profile picture: " . $user['photo_profil']);
         }
         $userC->deleteUser($userId);
@@ -214,24 +214,204 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete'])) {
             font-size: 12px;
             margin-top: 5px;
         }
+        body {
+            background: linear-gradient(135deg, #8a63d2, #563d91);
+        }
+        .profile-section {
+            background-color: #fff;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        /* Form field styling - Make more specific with !important to override global styles */
+        .profile-section input[type="text"],
+        .profile-section input[type="email"],
+        .profile-section input[type="password"],
+        .profile-section input[type="date"],
+        .profile-section input[type="file"],
+        .profile-section select {
+            color: #333 !important; /* Force black text */
+            background-color: white !important;
+            border: 1px solid #ced4da !important;
+        }
+        
+        /* Focus state styling */
+        .profile-section input[type="text"]:focus,
+        .profile-section input[type="email"]:focus,
+        .profile-section input[type="password"]:focus,
+        .profile-section input[type="date"]:focus,
+        .profile-section input[type="file"]:focus,
+        .profile-section select:focus {
+            color: #333 !important;
+            background-color: white !important;
+            border-color: #6f42c1 !important;
+            box-shadow: 0 0 0 0.2rem rgba(111, 66, 193, 0.25) !important;
+        }
+        
+        /* Placeholder styling */
+        .profile-section input::placeholder {
+            color: #999 !important;
+            opacity: 1 !important;
+        }
+        
+        /* Disabled field styling */
+        .profile-section input:disabled,
+        .profile-section select:disabled {
+            color: #333 !important;
+            background-color: #f8f9fa !important;
+            cursor: not-allowed;
+            opacity: 0.8;
+        }
+        
+        /* Add the necessary navbar styles from homepage */
+        .header {
+            color: #ffffff;
+            padding: 20px 0;
+            transition: all 0.5s;
+            z-index: 997;
+        }
+        
+        .header .logo {
+            line-height: 1;
+        }
+        
+        .header .logo img {
+            max-height: 36px;
+            margin-right: 8px;
+        }
+        
+        .header .logo h1 {
+            font-size: 30px;
+            margin: 0;
+            font-weight: 700;
+            color: #ffffff;
+        }
+        
+        .navmenu ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            list-style: none;
+            align-items: center;
+        }
+        
+        .navmenu li {
+            position: relative;
+        }
+        
+        .navmenu > ul > li {
+            padding: 10px 0 10px 24px;
+            white-space: nowrap;
+        }
+        
+        .navmenu a,
+        .navmenu a:focus {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 3px;
+            font-size: 15px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.8);
+            white-space: nowrap;
+            transition: 0.3s;
+            position: relative;
+        }
+        
+        .navmenu a i,
+        .navmenu a:focus i {
+            font-size: 12px;
+            line-height: 0;
+            margin-left: 5px;
+        }
+        
+        .navmenu li:hover > a,
+        .navmenu .active,
+        .navmenu .active:focus,
+        .navmenu li:hover > a:focus {
+            color: #fff;
+        }
+        
+        @media (max-width: 1200px) {
+            .header {
+                padding: 15px;
+            }
+            
+            .header .logo {
+                order: 1;
+            }
+            
+            .mobile-nav-toggle {
+                color: #fff;
+                font-size: 28px;
+                cursor: pointer;
+                display: block;
+                line-height: 0;
+                transition: 0.5s;
+                z-index: 9999;
+                margin-right: 10px;
+            }
+        }
+        
+        main {
+            padding-top: 100px;
+        }
+        
+        @media (max-width: 768px) {
+            header div {
+                flex-direction: column;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav li {
+                margin: 10px 0 !important;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="loader" id="loader"></div>
-    <header>
-        <div class="logo">
-            <img src="../../innoconnect.jpeg" alt="InnoConnect Logo">
+    <header style="background-color: #6f42c1; padding: 15px 20px; width: 100%; position: fixed; top: 0; z-index: 1000;">
+        <div style="display: flex; align-items: center; justify-content: space-between; max-width: 1200px; margin: 0 auto;">
+            <div style="display: flex; align-items: center;">
+                <img src="../../innoconnect.jpeg" alt="InnoConnect Logo" style="width: 40px; height: 40px;">
+                <h1 style="color: white; margin: 0 0 0 15px; font-size: 24px;">InnoConnect</h1>
+            </div>
+            <nav style="display: flex;">
+                <ul style="display: flex; list-style: none; margin: 0; padding: 0;">
+                    <li style="margin: 0 15px;"><a href="../../index.html" style="color: white; text-decoration: none; font-weight: 500;">Home</a></li>
+                    <li style="margin: 0 15px;"><a href="profile.php" style="color: white; text-decoration: none; font-weight: 500; text-decoration: underline;">My Profile</a></li>
+                    
+                    <?php if ($_SESSION['user_type'] === 'innovateur'): ?>
+                        <!-- Innovateur-specific navigation -->
+                        <li style="margin: 0 15px;"><a href="ContratInnovateur.php" style="color: white; text-decoration: none; font-weight: 500;">My Contracts</a></li>
+                        <li style="margin: 0 15px;"><a href="InnovateurProjet.php" style="color: white; text-decoration: none; font-weight: 500;">My Projects</a></li>
+                        <li style="margin: 0 15px;"><a href="InnovateurQuiz.html" style="color: white; text-decoration: none; font-weight: 500;">Innovator Quiz</a></li>
+                    <?php endif; ?>
+                    
+                    <?php if ($_SESSION['user_type'] === 'investisseur'): ?>
+                        <!-- Investisseur-specific navigation -->
+                        <li style="margin: 0 15px;"><a href="ContratInvestisseur.php" style="color: white; text-decoration: none; font-weight: 500;">My Contracts</a></li>
+                        <li style="margin: 0 15px;"><a href="Investisseur.php" style="color: white; text-decoration: none; font-weight: 500;">My Investments</a></li>
+                        <li style="margin: 0 15px;"><a href="investisseurProjet.php" style="color: white; text-decoration: none; font-weight: 500;">Available Projects</a></li>
+                    <?php endif; ?>
+                    
+                    <?php if ($_SESSION['user_type'] === 'administrateur'): ?>
+                        <!-- Admin-specific navigation - links to backOffice -->
+                        <li style="margin: 0 15px;"><a href="../backOffice/listeUser.php" style="color: white; text-decoration: none; font-weight: 500;">User Management</a></li>
+                        <li style="margin: 0 15px;"><a href="../backOffice/ContratView.php" style="color: white; text-decoration: none; font-weight: 500;">Contracts Management</a></li>
+                        <li style="margin: 0 15px;"><a href="../backOffice/FinancementView.php" style="color: white; text-decoration: none; font-weight: 500;">Financements Management</a></li>
+                    <?php endif; ?>
+                    
+                    <li style="margin: 0 15px;"><a href="logout.php" style="color: white; text-decoration: none; font-weight: 500;">Logout</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="../../index.html">Home</a></li>
-                <li><a href="profile.php" class="active">My Profile</a></li>
-                <?php if ($_SESSION['user_type'] === 'administrateur'): ?>
-                    <li><a href="../../dashboard.php">Dashboard</a></li>
-                <?php endif; ?>
-                <li><a href="logout.php">Logout</a></li>
-            </ul>
-        </nav>
     </header>
     <main>
         <section class="profile-section">
@@ -313,8 +493,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete'])) {
         </section>
     </main>
 
-    <footer>
-        <p>© 2025 InnoConnect. All rights reserved.</p>
+    <footer style="width: 100%; background: linear-gradient(135deg, #6f42c1, #6610f2); color: white; padding: 2rem 0; text-align: center; margin-top: auto;">
+        <div style="width: 100%; padding: 0 3rem;">
+            <p>© 2025 InnoConnect. All rights reserved.</p>
+        </div>
     </footer>
 
     <script>

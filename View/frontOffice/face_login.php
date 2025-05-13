@@ -1,8 +1,8 @@
 <?php
 session_start();
-include $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/config.php';
+require_once __DIR__ . '/../../config.php';
 
-$logFile = $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/debug.log';
+$logFile = __DIR__ . '/../../debug.log';
 function logMessage($message) {
     global $logFile;
     file_put_contents($logFile, date('Y-m-d H:i:s') . " - " . $message . "\n", FILE_APPEND);
@@ -17,7 +17,7 @@ if (!isset($_FILES['webcam_image']) || $_FILES['webcam_image']['error'] !== UPLO
     exit;
 }
 
-$uploadDir = $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/uploads/temp/';
+$uploadDir = __DIR__ . '/../../uploads/temp/';
 if (!is_dir($uploadDir)) mkdir($uploadDir, 0777, true);
 $fileExt = strtolower(pathinfo($_FILES['webcam_image']['name'], PATHINFO_EXTENSION));
 $webcamImagePath = $uploadDir . 'webcam_' . time() . '.' . $fileExt;
@@ -29,8 +29,8 @@ if (!move_uploaded_file($_FILES['webcam_image']['tmp_name'], $webcamImagePath)) 
 }
 logMessage("Webcam image saved at: $webcamImagePath");
 
-$brightness_script = 'C:\xampp\htdocs\ProjetInnoconnect\scripts\check_brightness.py';
-$brightness_command = escapeshellcmd('"C:\Users\ferie\AppData\Local\Programs\Python\Python311\python.exe" ' . $brightness_script . ' ' . $webcamImagePath);
+$brightness_script = __DIR__ . '/../../scripts/check_brightness.py';
+$brightness_command = escapeshellcmd('python ' . $brightness_script . ' ' . $webcamImagePath);
 $brightness_output = shell_exec($brightness_command);
 logMessage("Brightness check result: $brightness_output");
 
@@ -41,9 +41,9 @@ if (strpos($brightness_output, "Image trop sombre") !== false || strpos($brightn
     exit;
 }
 
-$python_script = 'C:\xampp\htdocs\ProjetInnoconnect\scripts\generate_temp_encoding.py';
-$tempEncodingPath = $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/face_encodings/temp_encoding.npy';
-$command = escapeshellcmd('"C:\Users\ferie\AppData\Local\Programs\Python\Python311\python.exe" ' . $python_script . ' ' . $webcamImagePath . ' ' . $tempEncodingPath);
+$python_script = __DIR__ . '/../../scripts/generate_temp_encoding.py';
+$tempEncodingPath = __DIR__ . '/../../face_encodings/temp_encoding.npy';
+$command = escapeshellcmd('python ' . $python_script . ' ' . $webcamImagePath . ' ' . $tempEncodingPath);
 $output = shell_exec($command);
 logMessage("Generate temp encoding result: $output");
 
@@ -66,7 +66,7 @@ $matchedUserId = null;
 
 foreach ($users as $user) {
     $userId = $user['id_utilisateur'];
-    $encodingFile = $_SERVER['DOCUMENT_ROOT'] . "/ProjetInnoconnect/face_encodings/user_{$userId}.npy";
+    $encodingFile = __DIR__ . "/../../face_encodings/user_{$userId}.npy";
 
     if (!file_exists($encodingFile)) {
         logMessage("Encoding file not found for user $userId");
@@ -76,8 +76,8 @@ foreach ($users as $user) {
     $storedEncoding = unserialize(file_get_contents($encodingFile));
     logMessage("Stored encoding loaded for user $userId, size: " . count($storedEncoding));
 
-    $python_compare_script = 'C:\xampp\htdocs\ProjetInnoconnect\scripts\compare_encodings.py';
-    $command = escapeshellcmd('"C:\Users\ferie\AppData\Local\Programs\Python\Python311\python.exe" ' . $python_compare_script . ' ' . $tempEncodingPath . ' ' . $encodingFile);
+    $python_compare_script = __DIR__ . '/../../scripts/compare_encodings.py';
+    $command = escapeshellcmd('python ' . $python_compare_script . ' ' . $tempEncodingPath . ' ' . $encodingFile);
     $compareOutput = shell_exec($command);
     logMessage("Comparison result for user $userId: $compareOutput");
 

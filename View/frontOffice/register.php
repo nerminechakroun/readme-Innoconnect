@@ -3,9 +3,9 @@ header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
 header("Cache-Control: post-check=0, pre-check=0", false);
 header("Pragma: no-cache");
 
-include $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/config.php';
-include $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/Controller/utilisateurC.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/vendor/autoload.php';
+require_once __DIR__ . '/../../config.php';
+require_once __DIR__ . '/../../Controller/utilisateurC.php';
+require_once __DIR__ . '/../../vendor/autoload.php';
 
 use TwoCaptcha\TwoCaptcha;
 
@@ -143,7 +143,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                             // Gestion de la photo
                             if (isset($_FILES['photo_profil']) && $_FILES['photo_profil']['error'] === UPLOAD_ERR_OK) {
-                                $uploadDir = $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/uploads/';
+                                $uploadDir = __DIR__ . '/../../uploads/';
                                 logMessage("Upload dir: $uploadDir");
                                 $allowedTypes = ['image/jpeg', 'image/png', 'image/gif'];
                                 $maxFileSize = 5 * 1024 * 1024;
@@ -167,9 +167,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                         $stmt = $db->prepare("UPDATE utilisateur SET photo_profil = :photo_profil WHERE id_utilisateur = :id_utilisateur");
                                         $stmt->execute([':photo_profil' => $photo_profil, ':id_utilisateur' => $userId]);
 
-                                        // Génération de l’encodage facial
-                                        $python_script = 'C:\xampp\htdocs\ProjetInnoconnect\scripts\generate_encoding.py';
-                                        $command = escapeshellcmd('"C:\Users\ferie\AppData\Local\Programs\Python\Python311\python.exe" ' . $python_script . ' ' . $uploadPath . ' ' . $userId);
+                                        // Génération de l'encodage facial
+                                        $python_script = __DIR__ . '/../../scripts/generate_encoding.py';
+                                        $command = escapeshellcmd('python ' . $python_script . ' ' . $uploadPath . ' ' . $userId);
                                         $output = shell_exec($command . ' 2>&1');
                                         logMessage("Encoding result: $output");
 
@@ -251,6 +251,100 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
         .notification.success { background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
         .notification.danger { background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+        /* Additional navbar styles to match homepage */
+        .header {
+            color: #ffffff;
+            padding: 20px 0;
+            transition: all 0.5s;
+            z-index: 997;
+        }
+        
+        .header .logo {
+            line-height: 1;
+        }
+        
+        .header .logo img {
+            max-height: 36px;
+            margin-right: 8px;
+        }
+        
+        .header .logo h1 {
+            font-size: 30px;
+            margin: 0;
+            font-weight: 700;
+            color: #ffffff;
+        }
+        
+        .navmenu ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            list-style: none;
+            align-items: center;
+        }
+        
+        .navmenu li {
+            position: relative;
+        }
+        
+        .navmenu > ul > li {
+            padding: 10px 0 10px 24px;
+            white-space: nowrap;
+        }
+        
+        .navmenu a,
+        .navmenu a:focus {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 3px;
+            font-size: 15px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.8);
+            white-space: nowrap;
+            transition: 0.3s;
+            position: relative;
+        }
+        
+        .navmenu a i,
+        .navmenu a:focus i {
+            font-size: 12px;
+            line-height: 0;
+            margin-left: 5px;
+        }
+        
+        .navmenu li:hover > a,
+        .navmenu .active,
+        .navmenu .active:focus,
+        .navmenu li:hover > a:focus {
+            color: #fff;
+        }
+        
+        .container {
+            margin-top: 120px;
+            padding-top: 30px;
+        }
+        
+        @media (max-width: 1200px) {
+            .header {
+                padding: 15px;
+            }
+            
+            .header .logo {
+                order: 1;
+            }
+            
+            .mobile-nav-toggle {
+                color: #fff;
+                font-size: 28px;
+                cursor: pointer;
+                display: block;
+                line-height: 0;
+                transition: 0.5s;
+                z-index: 9999;
+                margin-right: 10px;
+            }
+        }
     </style>
 </head>
 <body class="bg-gray-100">
@@ -258,17 +352,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <div class="loader" id="loader"></div>
 
-    <header>
-        <div class="logo">
-            <img src="../../innoconnect.jpeg" alt="InnoConnect Logo">
+    <header style="background-color: #6f42c1; padding: 15px 20px; width: 100%; position: fixed; top: 0; z-index: 1000;">
+        <div style="display: flex; align-items: center; justify-content: space-between; max-width: 1200px; margin: 0 auto;">
+            <div style="display: flex; align-items: center;">
+                <img src="../../innoconnect.jpeg" alt="InnoConnect Logo" style="width: 40px; height: 40px;">
+                <h1 style="color: white; margin: 0 0 0 15px; font-size: 24px;">InnoConnect</h1>
+            </div>
+            <nav style="display: flex;">
+                <ul style="display: flex; list-style: none; margin: 0; padding: 0;">
+                    <li style="margin: 0 15px;"><a href="../../index.html" style="color: white; text-decoration: none; font-weight: 500;">Home</a></li>
+                    <li style="margin: 0 15px;"><a href="register.php" style="color: white; text-decoration: none; font-weight: 500; text-decoration: underline;">Sign Up</a></li>
+                    <li style="margin: 0 15px;"><a href="login.php" style="color: white; text-decoration: none; font-weight: 500;">Login</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="../../index.html" class="active">Home</a></li>
-                <li><a href="register.php">Sign Up</a></li>
-                <li><a href="login.php">Login</a></li>
-            </ul>
-        </nav>
     </header>
 
     <div class="container py-5">

@@ -3,8 +3,8 @@ header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
 header("Cache-Control: post-check=0, pre-check=0", false);
 header("Pragma: no-cache");
 
-include $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/config.php';
-include $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/Controller/utilisateurC.php';
+require_once __DIR__ . '/../../config.php';
+require_once __DIR__ . '/../../Controller/utilisateurC.php';
 session_start();
 $notification = isset($_SESSION['notification']) ? $_SESSION['notification'] : null;
 $welcomeMessage = isset($_SESSION['welcome_message']) ? $_SESSION['welcome_message'] : null;
@@ -33,11 +33,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         header("Location: login.php?error=Invalid email format");
-        exit;
-    }
-
-    if (strlen($mot_de_passe) < 8) {
-        header("Location: login.php?error=Password must be at least 8 characters long");
         exit;
     }
 
@@ -73,9 +68,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
     <div class="loader" id="loader"></div>
-    <header>
+    <header style="background-color: #6f42c1;">
         <div class="logo">
-            <img src="../../innoconnect.jpeg" alt="InnoConnect Logo">
+            <img src="../../innoconnect.jpeg" alt="InnoConnect Logo" style="width: 50px; margin-right: 10px;">
+            <span style="color: white;">InnoConnect</span>
         </div>
         <nav>
             <ul>
@@ -182,7 +178,7 @@ document.getElementById('face-login-btn').addEventListener('click', async () => 
 });
 </script>
         </form>
-        <p>Don’t have an account? <a href="register.php">Sign Up</a></p>
+        <p>Don't have an account? <a href="register.php">Sign Up</a></p>
     </div>
 
     <footer>
@@ -264,9 +260,6 @@ document.getElementById('face-login-btn').addEventListener('click', async () => 
             if (password.length === 0) {
                 passwordError.textContent = "Password is required.";
                 passwordError.style.display = "block";
-            } else if (password.length < 8) {
-                passwordError.textContent = "Password must be at least 8 characters long.";
-                passwordError.style.display = "block";
             } else {
                 passwordError.style.display = "none";
             }
@@ -293,10 +286,6 @@ document.getElementById('face-login-btn').addEventListener('click', async () => 
             // Validate Password
             if (password.length === 0) {
                 passwordError.textContent = "Password is required.";
-                passwordError.style.display = "block";
-                isValid = false;
-            } else if (password.length < 8) {
-                passwordError.textContent = "Password must be at least 8 characters long.";
                 passwordError.style.display = "block";
                 isValid = false;
             } else {

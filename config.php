@@ -5,7 +5,7 @@ class config {
     public static function getConnexion() {
         if (self::$conn === null) {
             try {
-                self::$conn = new PDO("mysql:host=localhost;dbname=innoconnect;charset=utf8", "root", "");
+                self::$conn = new PDO("mysql:host=localhost;port=3306;dbname=innoconnect;charset=utf8", "root", "");
                 self::$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
                 self::$conn->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
             } catch (PDOException $e) {

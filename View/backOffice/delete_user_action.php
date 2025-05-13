@@ -1,11 +1,11 @@
 <?php
-include $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/config.php';
-include $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/Controller/utilisateurC.php';
+require_once __DIR__ . '/../../config.php';
+require_once __DIR__ . '/../../Controller/utilisateurC.php';
 
 session_start();
 
 // Log file
-$logFile = $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/debug.log';
+$logFile = __DIR__ . '/../../debug.log';
 function logMessage($message) {
     global $logFile;
     file_put_contents($logFile, date('Y-m-d H:i:s') . " - " . $message . "\n", FILE_APPEND);

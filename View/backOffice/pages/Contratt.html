@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <link id="pagestyle" href="../assets/css/argon-dashboard.css?v=2.1.0" rel="stylesheet" />
+  <style>
+    /* CSS personnalisé pour la page */
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 40px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      text-align: center;
+      color: #6f42c1;
+      margin-bottom: 30px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 16px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+      vertical-align: middle;
+    }
+
+    th {
+      background-color: #6f42c1;
+      color: #fff;
+    }
+
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+
+    .badge {
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 14px;
+      display: inline-block;
+      min-width: 80px;
+      text-align: center;
+    }
+
+    .badge.signe {
+      background-color: #198754;
+      color: white;
+    }
+
+    .badge.attente {
+      background-color: #ffc107;
+      color: #000;
+    }
+
+    .btn {
+      padding: 8px 14px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background 0.3s;
+    }
+
+    .btn.view {
+      background-color: #6610f2;
+      color: white;
+    }
+
+    .btn.download {
+      background-color: #6c757d;
+      color: white;
+    }
+
+    .btn.delete {
+      background-color: #dc3545;
+      color: white;
+      border-radius: 0;  /* Carré pour la suppression */
+    }
+
+    .btn.modify {
+      background-color: #ffc107;
+      color: white;
+      border-radius: 0;  /* Carré pour la modification */
+    }
+
+    .btn.add {
+      background-color: #28a745;
+      color: white;
+      margin-top: 20px;
+    }
+
+    .btn:hover {
+      opacity: 0.9;
+    }
+
+    .action-buttons {
+      display: flex;
+      gap: 6px;
+    }
+
+    .form-container {
+      margin-bottom: 20px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .form-container input, .form-container select {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+    }
+
+    @media (max-width: 768px) {
+      table, thead, tbody, th, td, tr {
+        display: block;
+      }
+
+      th {
+        display: none;
+      }
+
+      td {
+        position: relative;
+        padding-left: 50%;
+        border-bottom: 1px solid #ccc;
+      }
+
+      td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 16px;
+        font-weight: bold;
+        color: #6f42c1;
+      }
+    }
+  </style>
+</head>
+<body class="g-sidenav-show bg-gray-100">
+  <div class="min-height-300 bg-dark position-absolute w-100"></div>
+  
+  <!-- Sidebar -->
+  <aside class="sidenav bg-white navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-4" id="sidenav-main">
+    <div class="sidenav-header">
+      <h4 class="text-dark text-center py-3">Tableau de Bord</h4>
+    </div>
+    <hr class="horizontal dark mt-0" />
+    <div class="collapse navbar-collapse w-auto" id="sidenav-collapse-main">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#" onclick="showSection('dashboard')"><i class="fas fa-chart-line text-primary"></i><span class="nav-link-text ms-2">Dashboard</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="Encaissements.html" onclick="showSection('encaissements')"><i class="fas fa-file-invoice-dollar text-danger"></i><span class="nav-link-text ms-2">Encaissements</span></a></li>
+        <li class="nav-item"><a class="nav-link active" href="Decaissements.html" onclick="showSection('decaissements')"><i class="fas fa-users text-warning"></i><span class="nav-link-text ms-2">Décaissements</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="TresorerieFinale.html" onclick="showSection('tresorerie')"><i class="fas fa-cogs text-info"></i><span class="nav-link-text ms-2">Trésorerie Finale</span></a></li>
+      </ul>
+    </div>
+  </aside>
+
+  <!-- Contenu principal -->
+  <main class="main-content position-relative border-radius-lg">
+    <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur" data-scroll="false"></nav>
+    <div class="container-fluid py-4">
+      <div class="row">
+        <div class="col-12">
+          <!-- Section Décaissements -->
+          <div id="decaissements" class="section-content" style="display: block">
+            <h2>Liste des Contrats de Financement</h2>
+            <!-- Formulaire d'ajout et de modification de contrat -->
+            <div class="form-container">
+              <h3>Ajouter / Modifier un contrat</h3>
+              <form id="contractForm">
+                <label for="innovateur">Innovateur :</label>
+                <input type="text" id="innovateur" name="innovateur" required placeholder="Nom de l'innovateur">
+                <label for="idInnovateur">ID Innovateur :</label>
+                <input type="text" id="idInnovateur" name="idInnovateur" required placeholder="ID de l'innovateur">
+                <label for="investisseur">Investisseur :</label>
+                <input type="text" id="investisseur" name="investisseur" required placeholder="Nom de l'investisseur">
+                <label for="idInvestisseur">ID Investisseur :</label>
+                <input type="text" id="idInvestisseur" name="idInvestisseur" required placeholder="ID de l'investisseur">
+                <label for="montant">Montant (€) :</label>
+                <input type="number" id="montant" name="montant" required placeholder="Montant du financement">
+                <label for="date">Date :</label>
+                <input type="date" id="date" name="date" required>
+                <label for="statut">Statut :</label>
+                <select id="statut" name="statut">
+                  <option value="attente">En attente</option>
+                  <option value="signe">Signé</option>
+                </select>
+                <button type="submit" class="btn add">Ajouter le contrat</button>
+                <button type="button" class="btn update" style="display:none;" id="updateButton">Mettre à jour le contrat</button>
+              </form>
+            </div>
+            <!-- Tableau des contrats -->
+            <table id="contractTable">
+              <thead>
+                <tr>
+                  <th>ID Innovateur</th>
+                  <th>Innovateur</th>
+                  <th>ID Investisseur</th>
+                  <th>Investisseur</th>
+                  <th>Montant (€)</th>
+                  <th>Date</th>
+                  <th>Statut</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Les contrats ajoutés seront ici -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    let editingRow = null;
+    document.getElementById('contractForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      const innovateur = document.getElementById('innovateur').value;
+      const idInnovateur = document.getElementById('idInnovateur').value;
+      const investisseur = document.getElementById('investisseur').value;
+      const idInvestisseur = document.getElementById('idInvestisseur').value;
+      const montant = document.getElementById('montant').value;
+      const date = document.getElementById('date').value;
+      const statut = document.getElementById('statut').value;
+
+      if (editingRow) {
+        // Mise à jour d'un contrat existant
+        editingRow.children[0].textContent = idInnovateur;
+        editingRow.children[1].textContent = innovateur;
+        editingRow.children[2].textContent = idInvestisseur;
+        editingRow.children[3].textContent = investisseur;
+        editingRow.children[4].textContent = montant;
+        editingRow.children[5].textContent = date;
+        editingRow.children[6].textContent = statut === 'attente' ? 'En attente' : 'Signé';
+        editingRow = null;
+        document.getElementById('updateButton').style.display = 'none';
+      } else {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td data-label="ID Innovateur">${idInnovateur}</td>
+          <td data-label="Innovateur">${innovateur}</td>
+          <td data-label="ID Investisseur">${idInvestisseur}</td>
+          <td data-label="Investisseur">${investisseur}</td>
+          <td data-label="Montant (€)">${montant}</td>
+          <td data-label="Date">${date}</td>
+          <td data-label="Statut">${statut === 'attente' ? 'En attente' : 'Signé'}</td>
+          <td class="action-buttons">
+            <button class="btn modify" onclick="editContract(this)">Modifier</button>
+            <button class="btn delete" onclick="deleteContract(this)">Supprimer</button>
+          </td>
+        `;
+        document.querySelector('#contractTable tbody').appendChild(row);
+      }
+
+      // Réinitialiser le formulaire
+      document.getElementById('contractForm').reset();
+    });
+
+    function editContract(button) {
+      const row = button.closest('tr');
+      document.getElementById('innovateur').value = row.children[1].textContent;
+      document.getElementById('idInnovateur').value = row.children[0].textContent;
+      document.getElementById('investisseur').value = row.children[3].textContent;
+      document.getElementById('idInvestisseur').value = row.children[2].textContent;
+      document.getElementById('montant').value = row.children[4].textContent;
+      document.getElementById('date').value = row.children[5].textContent;
+      document.getElementById('statut').value = row.children[6].textContent === 'En attente' ? 'attente' : 'signe';
+      editingRow = row;
+      document.getElementById('updateButton').style.display = 'inline-block';
+    }
+
+    function deleteContract(button) {
+      button.closest('tr').remove();
+    }
+  </script>
+</body>
+</html>

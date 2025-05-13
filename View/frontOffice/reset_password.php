@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/config.php';
+require_once __DIR__ . '/../../config.php';
 session_start();
 
 $conn = config::getConnexion();
@@ -40,17 +40,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
     <div class="loader" id="loader"></div>
-    <header>
-        <div class="logo">
-            <img src="../../innoconnect.jpeg" alt="InnoConnect Logo">
+    <header style="background-color: #6f42c1; padding: 15px 20px; width: 100%; position: fixed; top: 0; z-index: 1000;">
+        <div style="display: flex; align-items: center; justify-content: space-between; max-width: 1200px; margin: 0 auto;">
+            <div style="display: flex; align-items: center;">
+                <img src="../../innoconnect.jpeg" alt="InnoConnect Logo" style="width: 40px; height: 40px;">
+                <h1 style="color: white; margin: 0 0 0 15px; font-size: 24px;">InnoConnect</h1>
+            </div>
+            <nav style="display: flex;">
+                <ul style="display: flex; list-style: none; margin: 0; padding: 0;">
+                    <li style="margin: 0 15px;"><a href="../../index.html" style="color: white; text-decoration: none; font-weight: 500;">Home</a></li>
+                    <li style="margin: 0 15px;"><a href="register.php" style="color: white; text-decoration: none; font-weight: 500;">Sign Up</a></li>
+                    <li style="margin: 0 15px;"><a href="login.php" style="color: white; text-decoration: none; font-weight: 500;">Login</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="../../index.html">Home</a></li>
-                <li><a href="register.php">Sign Up</a></li>
-                <li><a href="login.php">Login</a></li>
-            </ul>
-        </nav>
     </header>
 
     <button class="theme-toggle" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
@@ -158,5 +161,27 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             document.getElementById('new_password').value = '';
         };
     </script>
+
+    <style>
+        /* Adjust main content to account for fixed header */
+        .register-container {
+            margin-top: 100px;
+        }
+        
+        @media (max-width: 768px) {
+            header div {
+                flex-direction: column;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav li {
+                margin: 10px 0 !important;
+            }
+        }
+    </style>
 </body>
 </html>

@@ -1,6 +1,6 @@
 <?php
-include $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/config.php';
-include $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/Controller/utilisateurC.php';
+require_once __DIR__ . '/../../config.php';
+require_once __DIR__ . '/../../Controller/utilisateurC.php';
 session_start();
 
 // Check if the user is logged in
@@ -98,7 +98,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Handle photo upload
     $photo_profil = $userToEdit['photo_profil']; // Keep the existing photo by default
     if (isset($_FILES['photo_profil']) && $_FILES['photo_profil']['error'] === UPLOAD_ERR_OK) {
-        $uploadDir = $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/uploads/';
+        $uploadDir = __DIR__ . '/../../uploads/';
         $allowedTypes = ['image/jpeg', 'image/png', 'image/gif'];
         $maxSize = 5 * 1024 * 1024;
 
@@ -114,7 +114,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             // Delete the old photo if it exists
             if (!empty($userToEdit['photo_profil'])) {
-                $oldPhotoPath = $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/uploads/' . $userToEdit['photo_profil'];
+                $oldPhotoPath = __DIR__ . '/../../uploads/' . $userToEdit['photo_profil'];
                 if (file_exists($oldPhotoPath)) {
                     unlink($oldPhotoPath);
                 }
@@ -255,7 +255,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             top: 0;
             left: 260px;
             right: 0;
-            background: linear-gradient(90deg, #5e72e4 0%, #7b92ff 100%);
+            background-color: #6f42c1;
             padding: 15px 30px;
             display: flex;
             justify-content: space-between;
@@ -729,13 +729,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
             <ul>
                 <li>
-                    <a href="../../dashboard.php">
-                        <i class="fas fa-tachometer-alt"></i> Dashboard
+                    <a href="listeUser.php">
+                        <i class="fas fa-tachometer-alt"></i> Admin Dashboard
                     </a>
                 </li>
                 <li>
                     <a href="listeUser.php" class="active">
                         <i class="fas fa-users"></i> User Management
+                    </a>
+                </li>
+                <li>
+                    <a href="ContratView.php">
+                        <i class="fas fa-file-contract"></i> Contracts Management
+                    </a>
+                </li>
+                <li>
+                    <a href="FinancementView.php">
+                        <i class="fas fa-money-bill-wave"></i> Financements Management
                     </a>
                 </li>
                 <li>
@@ -764,7 +774,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
             <div class="user-info">
                 <?php
-                $photoPath = !empty($adminUser['photo_profil']) ? $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/frontOffice/' . $adminUser['photo_profil'] : '';
+                $photoPath = !empty($adminUser['photo_profil']) ? __DIR__ . '/../../frontOffice/' . $adminUser['photo_profil'] : '';
                 $photoUrl = !empty($adminUser['photo_profil']) ? '/ProjetInnoconnect/frontOffice/' . htmlspecialchars($adminUser['photo_profil']) : '';
                 if (!empty($photoPath) && file_exists($photoPath)): ?>
                     <img src="<?php echo $photoUrl; ?>" alt="User Avatar">
@@ -839,7 +849,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <label for="photo_profil">Profile Photo</label>
                         <div class="current-photo">
                             <?php
-                            $photoPath = !empty($userToEdit['photo_profil']) ? $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/' . $userToEdit['photo_profil'] : '';
+                            $photoPath = !empty($userToEdit['photo_profil']) ? __DIR__ . '/../../' . $userToEdit['photo_profil'] : '';
                             $photoUrl = !empty($userToEdit['photo_profil']) ? '/ProjetInnoconnect/' . htmlspecialchars($userToEdit['photo_profil']) : '';
                             if (!empty($photoPath) && file_exists($photoPath)): ?>
                                 <img src="<?php echo $photoUrl; ?>" alt="Current Photo">

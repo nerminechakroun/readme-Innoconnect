@@ -1,6 +1,6 @@
 <?php
-include $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/config.php';
-include $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/Controller/utilisateurC.php';
+require_once __DIR__ . '/../../config.php';
+require_once __DIR__ . '/../../Controller/utilisateurC.php';
 session_start();
 
 // Vérifier si l'utilisateur est connecté et est un admin
@@ -40,7 +40,7 @@ if (empty($user['photo_profil'])) {
 }
 
 // Supprimer le fichier de la photo du serveur
-$photoPath = $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/frontOffice/' . $user['photo_profil'];
+$photoPath = __DIR__ . '/../../uploads/' . $user['photo_profil'];
 if (file_exists($photoPath)) {
     unlink($photoPath); // Supprime le fichier
 }

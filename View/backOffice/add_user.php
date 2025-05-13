@@ -1,6 +1,6 @@
 <?php
-include_once $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/config.php';
-include_once $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/Controller/utilisateurC.php';
+require_once __DIR__ . '/../../config.php';
+require_once __DIR__ . '/../../Controller/utilisateurC.php';
 session_start();
 
 // Check if the user is logged in
@@ -106,7 +106,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $photo = null;
     $photoError = null;
     if (!empty($_FILES['photo']['name'])) {
-        $uploadDir = $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/uploads/';
+        $uploadDir = __DIR__ . '/../../uploads/';
         $photoName = uniqid() . '-' . basename($_FILES['photo']['name']);
         $photoPath = $uploadDir . $photoName;
 
@@ -261,7 +261,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             top: 0;
             left: 260px;
             right: 0;
-            background: linear-gradient(90deg, #5e72e4 0%, #7b92ff 100%);
+            background-color: #6f42c1;
             padding: 15px 30px;
             display: flex;
             justify-content: space-between;
@@ -738,13 +738,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
             <ul>
                 <li>
-                    <a href="../../dashboard.php">
-                        <i class="fas fa-tachometer-alt"></i> Dashboard
+                    <a href="listeUser.php">
+                        <i class="fas fa-tachometer-alt"></i> Admin Dashboard
                     </a>
                 </li>
                 <li>
                     <a href="listeUser.php" class="active">
                         <i class="fas fa-users"></i> User Management
+                    </a>
+                </li>
+                <li>
+                    <a href="ContratView.php">
+                        <i class="fas fa-file-contract"></i> Contracts Management
+                    </a>
+                </li>
+                <li>
+                    <a href="FinancementView.php">
+                        <i class="fas fa-money-bill-wave"></i> Financements Management
                     </a>
                 </li>
                 <li>
@@ -773,7 +783,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
             <div class="user-info">
                 <?php
-                $photoPath = !empty($user['photo_profil']) ? $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/frontOffice/' . $user['photo_profil'] : '';
+                $photoPath = !empty($user['photo_profil']) ? __DIR__ . '/../../frontOffice/' . $user['photo_profil'] : '';
                 $photoUrl = !empty($user['photo_profil']) ? '/ProjetInnoconnect/frontOffice/' . htmlspecialchars($user['photo_profil']) : '';
                 if (!empty($photoPath) && file_exists($photoPath)): ?>
                     <img src="<?php echo $photoUrl; ?>" alt="User Avatar">

@@ -1,9 +1,21 @@
 <?php
-include $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/config.php';
-include $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/Controller/utilisateurC.php';
+require_once __DIR__ . '/../../config.php';
+require_once __DIR__ . '/../../Controller/utilisateurC.php';
 
-// Include TCPDF library
-require_once $_SERVER['DOCUMENT_ROOT'] . '/ProjetInnoconnect/tcpdf/tcpdf.php';
+// Check if TCPDF exists before trying to include it
+$tcpdf_available = false;
+try {
+    if (file_exists(__DIR__ . '/../../tcpdf/tcpdf.php')) {
+        require_once __DIR__ . '/../../tcpdf/tcpdf.php';
+        $tcpdf_available = true;
+    } else if (file_exists(__DIR__ . '/../../vendor/tecnickcom/tcpdf/tcpdf.php')) {
+        require_once __DIR__ . '/../../vendor/tecnickcom/tcpdf/tcpdf.php';
+        $tcpdf_available = true;
+    }
+} catch (Exception $e) {
+    // TCPDF not available
+    $tcpdf_available = false;
+}
 
 session_start();
 
@@ -53,6 +65,11 @@ $user = $userC->getUserById($userId);
 
 // Handle PDF export
 if (isset($_GET['export']) && $_GET['export'] === 'pdf') {
+    if (!$tcpdf_available) {
+        header("Location: listeUser.php?error=TCPDF library is not available. Please install TCPDF to use PDF export feature.");
+        exit;
+    }
+    
     // Create new PDF document
     $pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);
 
@@ -298,7 +315,31 @@ if (isset($_GET['export']) && $_GET['export'] === 'pdf') {
                         <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
                             <i class="ni ni-tv-2 text-dark text-sm opacity-10"></i>
                         </div>
-                        <span class="nav-link-text ms-1">Dashboard</span>
+                        <span class="nav-link-text ms-1">Admin Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="listeUser.php">
+                        <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+                            <i class="ni ni-single-02 text-dark text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">User Management</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ContratView.php">
+                        <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+                            <i class="ni ni-collection text-dark text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Contracts Management</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="FinancementView.php">
+                        <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+                            <i class="ni ni-money-coins text-dark text-sm opacity-10"></i>
+                        </div>
+                        <span class="nav-link-text ms-1">Financements Management</span>
                     </a>
                 </li>
                 <li class="nav-item">
@@ -322,7 +363,7 @@ if (isset($_GET['export']) && $_GET['export'] === 'pdf') {
     </aside>
     <main class="main-content position-relative border-radius-lg">
         <!-- Navbar -->
-        <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur" data-scroll="false">
+        <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur" style="background-color: #6f42c1;" data-scroll="false">
             <div class="container-fluid py-1 px-3">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
@@ -519,9 +560,15 @@ if (isset($_GET['export']) && $_GET['export'] === 'pdf') {
                                     <a href="add_user.php" class="btn btn-primary btn-sm mb-0 me-2">
                                         <i class="fas fa-user-plus me-1"></i> Add a User
                                     </a>
+                                    <?php if ($tcpdf_available): ?>
                                     <a href="listeUser.php?export=pdf" class="btn btn-secondary btn-sm mb-0">
                                         <i class="fas fa-file-pdf me-1"></i> Export to PDF
                                     </a>
+                                    <?php else: ?>
+                                    <button class="btn btn-secondary btn-sm mb-0" disabled title="TCPDF library is not installed">
+                                        <i class="fas fa-file-pdf me-1"></i> Export to PDF
+                                    </button>
+                                    <?php endif; ?>
                                 </div>
                             </div>
                         </div>
@@ -609,8 +656,8 @@ if (isset($_GET['export']) && $_GET['export'] === 'pdf') {
                                                 <td class="photo-column">
     <div class="d-flex px-2 py-1 justify-content-center">
         <?php
-        $photoPath = !empty($utilisateur['photo_profil']) ? $_SERVER['DOCUMENT_ROOT'] . '/' . $utilisateur['photo_profil'] : '';
-        $photoUrl = !empty($utilisateur['photo_profil']) ? '/ProjetInnoconnect/' . htmlspecialchars($utilisateur['photo_profil']) : '';
+        $photoPath = !empty($utilisateur['photo_profil']) ? __DIR__ . '/../../uploads/' . $utilisateur['photo_profil'] : '';
+        $photoUrl = !empty($utilisateur['photo_profil']) ? '../../uploads/' . htmlspecialchars($utilisateur['photo_profil']) : '';
         echo "<!-- Debug: photoPath=$photoPath, exists=" . (file_exists($photoPath) ? 'true' : 'false') . ", photoUrl=$photoUrl -->";
         if (!empty($photoPath) && file_exists($photoPath)): ?>
             <img src="<?php echo $photoUrl; ?>" alt="Profile Photo">
@@ -915,7 +962,7 @@ $(document).ready(function() {
 
     $('#confirmDelete').click(function() {
         const id = $(this).data('id');
-        console.log('Confirm delete for ID:', id); // Log l’ID envoyé
+        console.log('Confirm delete for ID:', id); // Log l'ID envoyé
         $.ajax({
             url: 'delete_user_action.php',
             type: 'POST',
@@ -933,7 +980,7 @@ $(document).ready(function() {
                 }
             },
             error: function(xhr, status, error) {
-                console.log('AJAX error:', { status, error, response: xhr.responseText }); // Log l’erreur
+                console.log('AJAX error:', { status, error, response: xhr.responseText }); // Log l'erreur
                 alert('An error occurred while deleting the user.');
             }
         });
